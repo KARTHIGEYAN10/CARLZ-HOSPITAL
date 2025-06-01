@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import "tailwindcss";
+body{
+    border: none;
+    margin: none;
+    box-sizing: border-box;
+}
+#profile-li:hover{
+    background-color: blueviolet;
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scroll-animation {
+    animation: scroll 30s linear infinite;
+  }
+  
+  .scroll-container:hover .scroll-animation {
+    animation-play-state: paused;
+  }
+.userlogs-index{
+  font-family:Boldonse;
+  
+}
+
+  
+  

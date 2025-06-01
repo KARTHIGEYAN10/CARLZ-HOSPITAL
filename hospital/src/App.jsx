@@ -1,0 +1,87 @@
+import { useEffect, useState } from 'react'
+import {Navigate,Route,Routes, useNavigate} from "react-router-dom"
+import {Toaster} from "react-hot-toast"
+import './App.css'
+import Home from './pages/Home'
+import Job from './pages/Job'
+import Doctors from './pages/Doctors'
+import Login from './pages/Login'
+import Register from './pages/Register'
+import Userlogs from './user/Userlogs'
+import Cardiac from './specialitydoctors/Cardiac'
+import EmergencyMedicine from './specialitydoctors/EmergencyMedicine'
+import EntHeadNeckSurgery from './specialitydoctors/EntHeadNeckSurgery'
+import HeadLungTransplant from './specialitydoctors/HeadLungTransplant'
+import InfectiousDiseaseandControl from './specialitydoctors/InfectiousDiseaseandControl'
+import InternalMedicine from './specialitydoctors/InternalMedicine'
+import Neurology from './specialitydoctors/Neurology'
+import Neurosurgery from './specialitydoctors/Neurosurgery'
+import Orthopaedics from './specialitydoctors/Orthopaedics'
+import Spinesurgery from './specialitydoctors/Spinesurgery'
+import Nephrology from './specialitydoctors/Nephrology'
+import Urology from './specialitydoctors/Urology'
+import LiverTransplantandHpbsurgery from './specialitydoctors/LiverTransplantandHpbsurgery'
+import Hematology from './specialitydoctors/Hematology'
+import BloodBank from './specialitydoctors/BloodBank'
+import RehabillitationMedicine from './specialitydoctors/RehabillitationMedicine'
+import ShoulderElbowInjuries from './specialitydoctors/ShoulderElbowInjuries'
+import PediatricsandNeonatology from './specialitydoctors/PediatricsandNeonatology'
+import GastroenterologyandHepatology from './specialitydoctors/GastroenterologyandHepatology'
+import Ophthalmology from './specialitydoctors/Ophthalmology'
+import MaxillofacialandDentalSurgery from './specialitydoctors/MaxillofacialandDentalSurgery'
+import Dermatology from './specialitydoctors/Dermatology'
+import CardiacAnaesthesiaandCTICU from './specialitydoctors/CardiacAnaesthesiaandCTICU'
+import PlasticSurgery from './specialitydoctors/PlasticSurgery'
+import Psychiatry from './specialitydoctors/Psychiatry'
+import Ivf from './specialitydoctors/Ivf'
+import Appoinment from './pages/Appoinment'
+import { useuserdoctorcontext } from './context/UserContext'
+
+function App() {
+  const {authuser,doctor}=useuserdoctorcontext()
+  return (
+    <>
+    <Toaster position='top-center'toastOptions={{
+          duration: 3000, 
+        }}/>
+    <Routes>
+      <Route path='/' element={authuser ? <Navigate to="/home" /> : <Login />}/>
+      <Route path='/job' element={authuser ? <Job /> : <Navigate to="/" /> }/>
+      <Route path='/doctor' element={authuser ? <Doctors /> : <Navigate to="/"/>}/>
+      <Route path='/home' element={authuser ? <Home /> : <Navigate to="/"/>}/> 
+      <Route path='/register' element={authuser ? <Navigate to="/"/> :<Register />} />
+      <Route path='/userlogs' element={authuser ? <Userlogs /> : <Navigate to="/" />}/>
+      <Route path='/cardic-science' element={doctor ? <Navigate to="/appointment"/> :<Cardiac />} />
+      <Route path="/emergency-medicine" element={doctor ? <Navigate to="/appointment"/> : <EmergencyMedicine />} />
+      <Route path="/infectious-disease-and-infection-control" element={doctor ? <Navigate to="/appointment"/> :<InfectiousDiseaseandControl />} />
+      <Route path="/internal-medicine-and-alliged-science" element={doctor ? <Navigate to="/appointment"/> :<InternalMedicine />} />
+      <Route path="/neurosergery" element={doctor ? <Navigate to="/appointment"/> :<Neurosurgery />} />
+      <Route path="/spine-surgery" element={doctor ? <Navigate to="/appointment"/> :<Spinesurgery />} />
+      <Route path="/neurology" element={doctor ? <Navigate to="/appointment"/> :<Neurology />} />
+      <Route path="/heart-and-lung-transplant-and-mechanical-circulatory-support" element={doctor ? <Navigate to="/appointment"/> :<HeadLungTransplant />} />
+      <Route path="/ent-head-and-neck-surgery" element={doctor ? <Navigate to="/appointment"/> :<EntHeadNeckSurgery />} />
+      <Route path="/orthopaedics" element={doctor ? <Navigate to="/appointment"/> :<Orthopaedics />} />
+      <Route path="/nephrology" element={doctor ? <Navigate to="/appointment"/> :<Nephrology />} />
+      <Route path="/urology" element={doctor ? <Navigate to="/appointment"/> :<Urology />} />
+      <Route path="/liver-diseases-transplant-and-hpb-surgery" element={doctor ? <Navigate to="/appointment"/> :<LiverTransplantandHpbsurgery />} />
+      <Route path="/hematology" element={doctor ? <Navigate to="/appointment"/> :<Hematology />} />
+      <Route path="/laboratory-service-and-blood-bank" element={doctor ? <Navigate to="/appointment"/> :<BloodBank />} />
+      <Route path="/rehabilitation-medicine" element={doctor ? <Navigate to="/appointment"/> :<RehabillitationMedicine />} />
+      <Route path="/shoulder-elbow-hand-and-sports-injuries" element={doctor ? <Navigate to="/appointment"/> :<ShoulderElbowInjuries />} />
+      <Route path="/pediatrics-and-neonatology" element={doctor ? <Navigate to="/appointment"/> :<PediatricsandNeonatology />} />
+      <Route path="/gastroenterology-and-hepatology" element={doctor ? <Navigate to="/appointment"/> :<GastroenterologyandHepatology />} />
+      <Route path="/ophthalmolgoy" element={doctor ? <Navigate to="/appointment"/> :<Ophthalmology />} />
+      <Route path="/maxillofacial-and-dental-surgery" element={doctor ? <Navigate to="/appointment"/> :<MaxillofacialandDentalSurgery />} />
+      <Route path="/dermatology" element={doctor ? <Navigate to="/appointment"/> :<Dermatology />} />
+      <Route path="/cardiac-anaesthesia-and-ct-icu" element={doctor ? <Navigate to="/appointment"/> :<CardiacAnaesthesiaandCTICU />} />
+      <Route path="/plastic-sergery" element={doctor ? <Navigate to="/appointment"/> :<PlasticSurgery />} />
+      <Route path="/psychiatry" element={doctor ? <Navigate to="/appointment"/> :<Psychiatry />} />
+      <Route path="/ivf" element={doctor ? <Navigate to="/appointment"/> :<Ivf />} />
+      <Route path='/appointment' element={authuser ? <Appoinment /> : <Navigate to="/"/>}/>
+    </Routes>
+    </>
+    
+  )
+}
+
+export default App

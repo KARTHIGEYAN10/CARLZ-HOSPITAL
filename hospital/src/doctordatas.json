@@ -1,0 +1,5409 @@
+{
+  "Cardiac Science": [
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "99%",
+      "rate": 1974,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "88%",
+      "rate": 2086,
+      "availability": {
+        "6-7": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "92%",
+      "rate": 2280,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "94%",
+      "rate": 2308,
+      "availability": {
+        "9-10": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "85%",
+      "rate": 1897,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "89%",
+      "rate": 1532,
+      "availability": {
+        "7-8": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "91%",
+      "rate": 1598,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "95%",
+      "rate": 1752,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "95%",
+      "rate": 2239,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "99%",
+      "rate": 1525,
+      "availability": {
+        "5-6": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    }
+  ],
+  "Emergency Medicine": [
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "93%",
+      "rate": 1929,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "86%",
+      "rate": 1656,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "94%",
+      "rate": 1588,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "89%",
+      "rate": 1834,
+      "availability": {
+        "6-7": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "93%",
+      "rate": 1593,
+      "availability": {
+        "5-6": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "99%",
+      "rate": 1771,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "85%",
+      "rate": 1523,
+      "availability": {
+        "6-7": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "93%",
+      "rate": 1909,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "99%",
+      "rate": 2188,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "91%",
+      "rate": 2422,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "85%",
+      "rate": 1636,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "98%",
+      "rate": 1775,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "87%",
+      "rate": 2078,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    }
+  ],
+  "Infectious Disease and Infection Control": [
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "95%",
+      "rate": 1564,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "95%",
+      "rate": 2308,
+      "availability": {
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "92%",
+      "rate": 2351,
+      "availability": {
+        "3-4": "available",
+        "6-7": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "97%",
+      "rate": 2282,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "88%",
+      "rate": 1530,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "88%",
+      "rate": 1604,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "93%",
+      "rate": 1804,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "85%",
+      "rate": 2043,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "97%",
+      "rate": 1913,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "85%",
+      "rate": 2139,
+      "availability": {
+        "10-11": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "98%",
+      "rate": 1814,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "97%",
+      "rate": 1609,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "96%",
+      "rate": 1880,
+      "availability": {
+        "6-7": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "92%",
+      "rate": 2074,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "85%",
+      "rate": 1757,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "93%",
+      "rate": 2074,
+      "availability": {
+        "10-11": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "94%",
+      "rate": 2342,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    }
+  ],
+  "Internal Medicine and Allied Science": [
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "86%",
+      "rate": 1999,
+      "availability": {
+        "3-4": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "85%",
+      "rate": 1566,
+      "availability": {
+        "6-7": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "90%",
+      "rate": 1666,
+      "availability": {
+        "10-11": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "88%",
+      "rate": 1935,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "93%",
+      "rate": 1674,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "93%",
+      "rate": 2493,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "85%",
+      "rate": 1854,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "97%",
+      "rate": 2453,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "95%",
+      "rate": 1837,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "99%",
+      "rate": 1535,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "93%",
+      "rate": 2162,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "97%",
+      "rate": 1557,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    }
+  ],
+  "Neurosurgery": [
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "98%",
+      "rate": 2031,
+      "availability": {
+        "5-6": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "97%",
+      "rate": 1552,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "94%",
+      "rate": 2293,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "95%",
+      "rate": 2480,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "96%",
+      "rate": 1589,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "87%",
+      "rate": 1845,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "88%",
+      "rate": 1904,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "92%",
+      "rate": 2288,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "88%",
+      "rate": 2443,
+      "availability": {
+        "6-7": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "87%",
+      "rate": 1946,
+      "availability": {
+        "6-7": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "92%",
+      "rate": 2154,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "91%",
+      "rate": 1840,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "93%",
+      "rate": 2257,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "85%",
+      "rate": 2125,
+      "availability": {
+        "9-10": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "99%",
+      "rate": 1704,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "90%",
+      "rate": 2450,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    }
+  ],
+  "Spine Surgery": [
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "90%",
+      "rate": 2401,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "90%",
+      "rate": 1927,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "98%",
+      "rate": 2352,
+      "availability": {
+        "7-8": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "97%",
+      "rate": 1940,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "89%",
+      "rate": 1689,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "89%",
+      "rate": 2004,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "95%",
+      "rate": 1696,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "95%",
+      "rate": 1754,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "87%",
+      "rate": 2170,
+      "availability": {
+        "10-11": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "86%",
+      "rate": 1674,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Spine Surgery",
+      "successrate": "93%",
+      "rate": 1859,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    }
+  ],
+  "Neurology": [
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "87%",
+      "rate": 2220,
+      "availability": {
+        "5-6": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "87%",
+      "rate": 2109,
+      "availability": {
+        "5-6": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "85%",
+      "rate": 2458,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "96%",
+      "rate": 1518,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "95%",
+      "rate": 2085,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "94%",
+      "rate": 1660,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "85%",
+      "rate": 1724,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "95%",
+      "rate": 2470,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "86%",
+      "rate": 1920,
+      "availability": {
+        "3-4": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "85%",
+      "rate": 1813,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Neurology",
+      "successrate": "90%",
+      "rate": 1751,
+      "availability": {
+        "3-4": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    }
+  ],
+  "Heart & Lung Transplant and Mechanical Circulatory Support": [
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "88%",
+      "rate": 2380,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "93%",
+      "rate": 2275,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "98%",
+      "rate": 1955,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "97%",
+      "rate": 2458,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "97%",
+      "rate": 2251,
+      "availability": {
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "99%",
+      "rate": 2033,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "90%",
+      "rate": 2424,
+      "availability": {
+        "10-11": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "91%",
+      "rate": 1624,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "91%",
+      "rate": 2019,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "91%",
+      "rate": 1643,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "94%",
+      "rate": 1776,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "92%",
+      "rate": 2472,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "96%",
+      "rate": 1910,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "96%",
+      "rate": 2043,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "96%",
+      "rate": 2088,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "98%",
+      "rate": 2111,
+      "availability": {
+        "5-6": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Heart & Lung Transplant and Mechanical Circulatory Support",
+      "successrate": "98%",
+      "rate": 1810,
+      "availability": {
+        "3-4": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    }
+  ],
+  "ENT, Head & Neck Surgery": [
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "85%",
+      "rate": 1760,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "92%",
+      "rate": 1930,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "93%",
+      "rate": 1650,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "97%",
+      "rate": 1563,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "90%",
+      "rate": 1593,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "89%",
+      "rate": 1890,
+      "availability": {
+        "3-4": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "94%",
+      "rate": 2351,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "99%",
+      "rate": 2448,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "92%",
+      "rate": 1542,
+      "availability": {
+        "5-6": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "99%",
+      "rate": 2460,
+      "availability": {
+        "11-12": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "99%",
+      "rate": 1983,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - ENT, Head & Neck Surgery",
+      "successrate": "87%",
+      "rate": 2143,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    }
+  ],
+  "Orthopaedics": [
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "85%",
+      "rate": 1597,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "94%",
+      "rate": 1682,
+      "availability": {
+        "6-7": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "99%",
+      "rate": 1819,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "88%",
+      "rate": 1691,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "85%",
+      "rate": 2289,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "91%",
+      "rate": 1815,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "89%",
+      "rate": 2415,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "89%",
+      "rate": 2036,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "87%",
+      "rate": 2248,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "92%",
+      "rate": 1985,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "99%",
+      "rate": 2112,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Orthopaedics",
+      "successrate": "89%",
+      "rate": 2144,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    }
+  ],
+  "Nephrology": [
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "95%",
+      "rate": 1919,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "85%",
+      "rate": 2498,
+      "availability": {
+        "7-8": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "86%",
+      "rate": 2119,
+      "availability": {
+        "3-4": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "86%",
+      "rate": 1847,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "90%",
+      "rate": 2260,
+      "availability": {
+        "6-7": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "92%",
+      "rate": 1859,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "90%",
+      "rate": 2139,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "96%",
+      "rate": 2105,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "91%",
+      "rate": 2193,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "86%",
+      "rate": 2137,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "96%",
+      "rate": 2323,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "96%",
+      "rate": 1897,
+      "availability": {
+        "10-11": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "87%",
+      "rate": 1946,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "94%",
+      "rate": 2086,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "91%",
+      "rate": 1741,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "89%",
+      "rate": 2259,
+      "availability": {
+        "3-4": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Nephrology",
+      "successrate": "89%",
+      "rate": 2468,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    }
+  ],
+  "Urology": [
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Urology",
+      "successrate": "94%",
+      "rate": 1607,
+      "availability": {
+        "11-12": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Urology",
+      "successrate": "99%",
+      "rate": 1936,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Urology",
+      "successrate": "87%",
+      "rate": 2044,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Urology",
+      "successrate": "92%",
+      "rate": 1731,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Urology",
+      "successrate": "86%",
+      "rate": 1967,
+      "availability": {
+        "5-6": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Urology",
+      "successrate": "86%",
+      "rate": 2457,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Urology",
+      "successrate": "85%",
+      "rate": 1779,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Urology",
+      "successrate": "92%",
+      "rate": 2140,
+      "availability": {
+        "10-11": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Urology",
+      "successrate": "86%",
+      "rate": 2055,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Urology",
+      "successrate": "87%",
+      "rate": 1506,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Urology",
+      "successrate": "94%",
+      "rate": 1883,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Urology",
+      "successrate": "89%",
+      "rate": 2372,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Urology",
+      "successrate": "90%",
+      "rate": 1724,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Urology",
+      "successrate": "87%",
+      "rate": 1773,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Urology",
+      "successrate": "85%",
+      "rate": 1718,
+      "availability": {
+        "5-6": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    }
+  ],
+  "Liver Diseases, Transplant & HPB Surgery": [
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "89%",
+      "rate": 2082,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "87%",
+      "rate": 1940,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "85%",
+      "rate": 2191,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "97%",
+      "rate": 1751,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "92%",
+      "rate": 2057,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "88%",
+      "rate": 1872,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "85%",
+      "rate": 1780,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "87%",
+      "rate": 2072,
+      "availability": {
+        "7-8": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "97%",
+      "rate": 2248,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "86%",
+      "rate": 2175,
+      "availability": {
+        "3-4": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "94%",
+      "rate": 2386,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "99%",
+      "rate": 1673,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "91%",
+      "rate": 2107,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "88%",
+      "rate": 1986,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "91%",
+      "rate": 1533,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Liver Diseases, Transplant & HPB Surgery",
+      "successrate": "90%",
+      "rate": 2154,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    }
+  ],
+  "Hematology": [
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "93%",
+      "rate": 1559,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "88%",
+      "rate": 1587,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "87%",
+      "rate": 2027,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "89%",
+      "rate": 2223,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "88%",
+      "rate": 1768,
+      "availability": {
+        "5-6": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "97%",
+      "rate": 1989,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "97%",
+      "rate": 2110,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "90%",
+      "rate": 1695,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "91%",
+      "rate": 2471,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "96%",
+      "rate": 1917,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "92%",
+      "rate": 1807,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "95%",
+      "rate": 2426,
+      "availability": {
+        "5-6": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "87%",
+      "rate": 1975,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "88%",
+      "rate": 1990,
+      "availability": {
+        "3-4": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Hematology",
+      "successrate": "91%",
+      "rate": 2406,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    }
+  ],
+  "Laboratory Service and Blood Bank": [
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "93%",
+      "rate": 2133,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "87%",
+      "rate": 1735,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "93%",
+      "rate": 1628,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "86%",
+      "rate": 1562,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "99%",
+      "rate": 2129,
+      "availability": {
+        "11-12": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "90%",
+      "rate": 1828,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "94%",
+      "rate": 1638,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "89%",
+      "rate": 2175,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "95%",
+      "rate": 1769,
+      "availability": {
+        "10-11": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "99%",
+      "rate": 2046,
+      "availability": {
+        "5-6": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "88%",
+      "rate": 1794,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "87%",
+      "rate": 2067,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Laboratory Service and Blood Bank",
+      "successrate": "89%",
+      "rate": 2433,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    }
+  ],
+  "Rehabilitation Medicine": [
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "86%",
+      "rate": 1929,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "92%",
+      "rate": 1668,
+      "availability": {
+        "6-7": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "93%",
+      "rate": 2267,
+      "availability": {
+        "6-7": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "97%",
+      "rate": 2316,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "87%",
+      "rate": 2184,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "96%",
+      "rate": 2167,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "87%",
+      "rate": 2002,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "88%",
+      "rate": 1584,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "91%",
+      "rate": 2183,
+      "availability": {
+        "7-8": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Rehabilitation Medicine",
+      "successrate": "93%",
+      "rate": 2400,
+      "availability": {
+        "6-7": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    }
+  ],
+  "Shoulder, Elbow, Hand & Sports Injuries": [
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "86%",
+      "rate": 1545,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "93%",
+      "rate": 2081,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "86%",
+      "rate": 1869,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "90%",
+      "rate": 1976,
+      "availability": {
+        "10-11": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "94%",
+      "rate": 1661,
+      "availability": {
+        "6-7": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "90%",
+      "rate": 1773,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "93%",
+      "rate": 2486,
+      "availability": {
+        "9-10": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "88%",
+      "rate": 1860,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "90%",
+      "rate": 2487,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "94%",
+      "rate": 2200,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "94%",
+      "rate": 1988,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "96%",
+      "rate": 1664,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "99%",
+      "rate": 2016,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Shoulder, Elbow, Hand & Sports Injuries",
+      "successrate": "89%",
+      "rate": 2474,
+      "availability": {
+        "5-6": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    }
+  ],
+  "Pediatrics and Neonatology": [
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "98%",
+      "rate": 1580,
+      "availability": {
+        "7-8": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "97%",
+      "rate": 1701,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "97%",
+      "rate": 2360,
+      "availability": {
+        "10-11": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "98%",
+      "rate": 2363,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "96%",
+      "rate": 2146,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "92%",
+      "rate": 2104,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "94%",
+      "rate": 1552,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "97%",
+      "rate": 1939,
+      "availability": {
+        "3-4": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "88%",
+      "rate": 1624,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "96%",
+      "rate": 1819,
+      "availability": {
+        "6-7": "available",
+        "5-6": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "85%",
+      "rate": 2429,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "85%",
+      "rate": 1587,
+      "availability": {
+        "10-11": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Pediatrics and Neonatology",
+      "successrate": "96%",
+      "rate": 1865,
+      "availability": {
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    }
+  ],
+  "Gastroenterology & Hepatology": [
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "97%",
+      "rate": 2285,
+      "availability": {
+        "10-11": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "98%",
+      "rate": 1980,
+      "availability": {
+        "3-4": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "92%",
+      "rate": 2394,
+      "availability": {
+        "3-4": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "97%",
+      "rate": 2297,
+      "availability": {
+        "5-6": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "96%",
+      "rate": 2051,
+      "availability": {
+        "4-5": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "92%",
+      "rate": 1888,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "98%",
+      "rate": 1752,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "88%",
+      "rate": 1649,
+      "availability": {
+        "3-4": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "89%",
+      "rate": 1765,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "85%",
+      "rate": 2037,
+      "availability": {
+        "10-11": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "93%",
+      "rate": 1698,
+      "availability": {
+        "4-5": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "98%",
+      "rate": 2025,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "97%",
+      "rate": 2049,
+      "availability": {
+        "6-7": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "88%",
+      "rate": 1648,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "95%",
+      "rate": 1712,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "96%",
+      "rate": 2450,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "97%",
+      "rate": 2144,
+      "availability": {
+        "6-7": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "7-8": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "90%",
+      "rate": 2151,
+      "availability": {
+        "5-6": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Gastroenterology & Hepatology",
+      "successrate": "96%",
+      "rate": 1814,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    }
+  ],
+  "Ophthalmology": [
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "90%",
+      "rate": 2167,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "91%",
+      "rate": 1968,
+      "availability": {
+        "3-4": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "94%",
+      "rate": 1865,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "99%",
+      "rate": 2462,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "99%",
+      "rate": 1597,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "97%",
+      "rate": 1744,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "95%",
+      "rate": 1744,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "88%",
+      "rate": 2219,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "85%",
+      "rate": 1635,
+      "availability": {
+        "11-12": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "93%",
+      "rate": 1904,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Ophthalmology",
+      "successrate": "93%",
+      "rate": 2468,
+      "availability": {
+        "10-11": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    }
+  ],
+  "Maxillofacial & Dental Surgery": [
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "85%",
+      "rate": 2209,
+      "availability": {
+        "9-10": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "99%",
+      "rate": 2258,
+      "availability": {
+        "4-5": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "87%",
+      "rate": 2479,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "87%",
+      "rate": 2137,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "92%",
+      "rate": 2002,
+      "availability": {
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "92%",
+      "rate": 2274,
+      "availability": {
+        "11-12": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "89%",
+      "rate": 1502,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "86%",
+      "rate": 1616,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "89%",
+      "rate": 2175,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "95%",
+      "rate": 1763,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Maxillofacial & Dental Surgery",
+      "successrate": "92%",
+      "rate": 1664,
+      "availability": {
+        "7-8": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    }
+  ],
+  "Dermatology": [
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "97%",
+      "rate": 1924,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "94%",
+      "rate": 1642,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "89%",
+      "rate": 2075,
+      "availability": {
+        "3-4": "available",
+        "5-6": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "92%",
+      "rate": 1584,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "92%",
+      "rate": 2438,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "96%",
+      "rate": 2150,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "91%",
+      "rate": 1517,
+      "availability": {
+        "10-11": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "97%",
+      "rate": 2199,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "9-10": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "99%",
+      "rate": 2347,
+      "availability": {
+        "9-10": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "88%",
+      "rate": 2469,
+      "availability": {
+        "7-8": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "92%",
+      "rate": 1827,
+      "availability": {
+        "9-10": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "87%",
+      "rate": 2084,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "94%",
+      "rate": 2327,
+      "availability": {
+        "4-5": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "93%",
+      "rate": 1547,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "92%",
+      "rate": 1999,
+      "availability": {
+        "10-11": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "93%",
+      "rate": 2391,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Dermatology",
+      "successrate": "96%",
+      "rate": 1533,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    }
+  ],
+  "Cardiac Anaesthesia & CT ICU": [
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "98%",
+      "rate": 1521,
+      "availability": {
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "94%",
+      "rate": 1785,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "90%",
+      "rate": 1663,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "97%",
+      "rate": 2498,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "85%",
+      "rate": 2044,
+      "availability": {
+        "9-10": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "99%",
+      "rate": 1809,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "6-7": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "97%",
+      "rate": 2233,
+      "availability": {
+        "7-8": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "99%",
+      "rate": 2494,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "97%",
+      "rate": 1806,
+      "availability": {
+        "4-5": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Vikram Desai",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "89%",
+      "rate": 1513,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "97%",
+      "rate": 1521,
+      "availability": {
+        "9-10": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "88%",
+      "rate": 2314,
+      "availability": {
+        "3-4": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - Cardiac Anaesthesia & CT ICU",
+      "successrate": "92%",
+      "rate": 2384,
+      "availability": {
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    }
+  ],
+  "Plastic Surgery": [
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "87%",
+      "rate": 1956,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "88%",
+      "rate": 1554,
+      "availability": {
+        "5-6": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "3-4": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "92%",
+      "rate": 1827,
+      "availability": {
+        "7-8": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "5-6": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "89%",
+      "rate": 1892,
+      "availability": {
+        "6-7": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "3-4": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "85%",
+      "rate": 1641,
+      "availability": {
+        "5-6": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "9-10": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "95%",
+      "rate": 2225,
+      "availability": {
+        "5-6": "available",
+        "9-10": "available",
+        "11-12": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rajeev Pillai",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "96%",
+      "rate": 1989,
+      "availability": {
+        "11-12": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "10-11": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "88%",
+      "rate": 1904,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "97%",
+      "rate": 1935,
+      "availability": {
+        "4-5": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "95%",
+      "rate": 1686,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "92%",
+      "rate": 1736,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "87%",
+      "rate": 1958,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "92%",
+      "rate": 2175,
+      "availability": {
+        "7-8": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "91%",
+      "rate": 1583,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "7-8": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "90%",
+      "rate": 2025,
+      "availability": {
+        "10-11": "available",
+        "3-4": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Plastic Surgery",
+      "successrate": "94%",
+      "rate": 1848,
+      "availability": {
+        "5-6": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "6-7": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    }
+  ],
+  "Psychiatry": [
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "97%",
+      "rate": 1836,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "90%",
+      "rate": 1937,
+      "availability": {
+        "10-11": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "91%",
+      "rate": 1525,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "89%",
+      "rate": 1904,
+      "availability": {
+        "7-8": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "5-6": "available",
+        "4-5": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "98%",
+      "rate": 1900,
+      "availability": {
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "89%",
+      "rate": 1989,
+      "availability": {
+        "10-11": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "93%",
+      "rate": 2107,
+      "availability": {
+        "3-4": "available",
+        "6-7": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "99%",
+      "rate": 1867,
+      "availability": {
+        "4-5": "available",
+        "10-11": "available",
+        "7-8": "available",
+        "6-7": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "92%",
+      "rate": 2397,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Arjun Reddy",
+      "role": "Senior Consultant - Psychiatry",
+      "successrate": "97%",
+      "rate": 1647,
+      "availability": {
+        "11-12": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "5-6": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    }
+  ],
+  "IVF": [
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - IVF",
+      "successrate": "91%",
+      "rate": 2479,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - IVF",
+      "successrate": "96%",
+      "rate": 1743,
+      "availability": {
+        "9-10": "available",
+        "5-6": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "11-12": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - IVF",
+      "successrate": "96%",
+      "rate": 2259,
+      "availability": {
+        "5-6": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "7-8": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Heart Healer"
+    },
+    {
+      "name": "Dr. Shruti Nair",
+      "role": "Senior Consultant - IVF",
+      "successrate": "99%",
+      "rate": 2394,
+      "availability": {
+        "4-5": "available",
+        "3-4": "available",
+        "11-12": "available",
+        "7-8": "available",
+        "9-10": "available"
+      },
+      "gender": "female",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - IVF",
+      "successrate": "90%",
+      "rate": 1553,
+      "availability": {
+        "3-4": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Surgery Maestro"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - IVF",
+      "successrate": "99%",
+      "rate": 1669,
+      "availability": {
+        "3-4": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Rohit Sharma",
+      "role": "Senior Consultant - IVF",
+      "successrate": "85%",
+      "rate": 2134,
+      "availability": {
+        "5-6": "available",
+        "9-10": "available",
+        "6-7": "available",
+        "10-11": "available",
+        "11-12": "available"
+      },
+      "gender": "female",
+      "title": "Psych Expert"
+    },
+    {
+      "name": "Dr. Kavya Iyer",
+      "role": "Senior Consultant - IVF",
+      "successrate": "97%",
+      "rate": 1941,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "11-12": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - IVF",
+      "successrate": "92%",
+      "rate": 2487,
+      "availability": {
+        "4-5": "available",
+        "9-10": "available",
+        "5-6": "available",
+        "3-4": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Care Wizard"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - IVF",
+      "successrate": "97%",
+      "rate": 1602,
+      "availability": {
+        "11-12": "available",
+        "4-5": "available",
+        "10-11": "available",
+        "3-4": "available",
+        "7-8": "available"
+      },
+      "gender": "male",
+      "title": "Liver Legend"
+    },
+    {
+      "name": "Dr. Nithya Menon",
+      "role": "Senior Consultant - IVF",
+      "successrate": "89%",
+      "rate": 2051,
+      "availability": {
+        "4-5": "available",
+        "7-8": "available",
+        "10-11": "available",
+        "11-12": "available",
+        "9-10": "available"
+      },
+      "gender": "male",
+      "title": "Spine Specialist"
+    },
+    {
+      "name": "Dr. Sneha Kapoor",
+      "role": "Senior Consultant - IVF",
+      "successrate": "95%",
+      "rate": 1685,
+      "availability": {
+        "11-12": "available",
+        "10-11": "available",
+        "9-10": "available",
+        "3-4": "available",
+        "4-5": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Meera Rao",
+      "role": "Senior Consultant - IVF",
+      "successrate": "85%",
+      "rate": 1719,
+      "availability": {
+        "3-4": "available",
+        "6-7": "available",
+        "9-10": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "male",
+      "title": "Healing Touch"
+    },
+    {
+      "name": "Dr. Karan Mehta",
+      "role": "Senior Consultant - IVF",
+      "successrate": "92%",
+      "rate": 2448,
+      "availability": {
+        "5-6": "available",
+        "4-5": "available",
+        "11-12": "available",
+        "9-10": "available",
+        "7-8": "available"
+      },
+      "gender": "female",
+      "title": "Neuro Genius"
+    },
+    {
+      "name": "Dr. Ayesha Khan",
+      "role": "Senior Consultant - IVF",
+      "successrate": "90%",
+      "rate": 2070,
+      "availability": {
+        "6-7": "available",
+        "10-11": "available",
+        "4-5": "available",
+        "7-8": "available",
+        "3-4": "available"
+      },
+      "gender": "female",
+      "title": "Vision Expert"
+    },
+    {
+      "name": "Dr. Sanjay Kumar",
+      "role": "Senior Consultant - IVF",
+      "successrate": "90%",
+      "rate": 1618,
+      "availability": {
+        "7-8": "available",
+        "11-12": "available",
+        "6-7": "available",
+        "4-5": "available",
+        "10-11": "available"
+      },
+      "gender": "female",
+      "title": "Healing Touch"
+    }
+  ]
+}
