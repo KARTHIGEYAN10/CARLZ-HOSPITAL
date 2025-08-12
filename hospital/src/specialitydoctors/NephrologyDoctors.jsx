@@ -3,7 +3,7 @@ import femaledoctor from "../assets/femaledoctor.png"
 import maledoctor from "../assets/maledoctor.png"
 import { useNavigate } from 'react-router-dom'
 import { useuserdoctorcontext } from '../context/UserContext'
-import d from "../doctordatas.json"
+import d from "../final_doctors_dataset2_final_sorted.json"
 const NephrologyDoctors = ({selectedDoctor,setSelectedDoctor}) => {
     const {setDoctor}=useuserdoctorcontext()
     const handleselected=(item)=>{

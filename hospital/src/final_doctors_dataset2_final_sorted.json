@@ -1,0 +1,714 @@
+{
+  "Cardiac Science": [
+    {
+      "name": "Dr. Myra Das",
+      "role": "Specialist - Cardiac Science",
+      "successrate": "93%",
+      "rate": 741,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Heart Legend",
+      "phone": "+1-878-532-9583",
+      "email": "paul44@flores.biz"
+    },
+    {
+      "name": "Dr. Tara Shah",
+      "role": "Legend - Cardiac Science",
+      "successrate": "93%",
+      "rate": 235,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Gut Specialist",
+      "phone": "(497)304-9576",
+      "email": "pmason@hotmail.com"
+    },
+    {
+      "name": "Dr. Prisha Mishra",
+      "role": "Senior Specialist - Cardiac Science",
+      "successrate": "99%",
+      "rate": 1214,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Healing Star",
+      "phone": "312-009-7872",
+      "email": "barnesgwendolyn@wilson-hamilton.com"
+    },
+    {
+      "name": "Dr. Meera Mishra",
+      "role": "Expert - Cardiac Science",
+      "successrate": "94%",
+      "rate": 681,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Visionary Healer",
+      "phone": "889-444-2300",
+      "email": "stacy84@hoffman.info"
+    },
+    {
+      "name": "Dr. Avni Mishra",
+      "role": "Senior Specialist - Cardiac Science",
+      "successrate": "98%",
+      "rate": 1886,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Neuro Genius",
+      "phone": "+1-855-734-8225x559",
+      "email": "smithstephanie@holden-vasquez.net"
+    },
+    {
+      "name": "Dr. Kiaan Verma",
+      "role": "Consultant - Cardiac Science",
+      "successrate": "86%",
+      "rate": 1956,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Gut Specialist",
+      "phone": "9020678473",
+      "email": "cindy06@gmail.com"
+    },
+    {
+      "name": "Dr. Mira Kapoor",
+      "role": "Expert - Cardiac Science",
+      "successrate": "89%",
+      "rate": 223,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Visionary Healer",
+      "phone": "(052)485-8142x47426",
+      "email": "chungbruce@brooks.info"
+    },
+    {
+      "name": "Dr. Aryan Das",
+      "role": "Specialist - Cardiac Science",
+      "successrate": "91%",
+      "rate": 1660,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Backbone Expert",
+      "phone": "001-047-328-0310",
+      "email": "madeline47@hotmail.com"
+    },
+    {
+      "name": "Dr. Navya Rao",
+      "role": "Senior Specialist - Cardiac Science",
+      "successrate": "97%",
+      "rate": 419,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Child Care Expert",
+      "phone": "+1-333-052-6612",
+      "email": "fray@hotmail.com"
+    },
+    {
+      "name": "Dr. Atharv Nair",
+      "role": "Consultant - Cardiac Science",
+      "successrate": "92%",
+      "rate": 517,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Skin Glow Expert",
+      "phone": "+1-747-890-7199x074",
+      "email": "andrew70@gmail.com"
+    },
+    {
+      "name": "Dr. Kabir Kumar",
+      "role": "Legend - Cardiac Science",
+      "successrate": "89%",
+      "rate": 1501,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Top Performer",
+      "phone": "427.181.2574",
+      "email": "hermanmichael@gmail.com"
+    },
+    {
+      "name": "Dr. Reyansh Nair",
+      "role": "Expert - Cardiac Science",
+      "successrate": "91%",
+      "rate": 1585,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Gut Specialist",
+      "phone": "(526)092-7404",
+      "email": "hayslaura@hotmail.com"
+    },
+    {
+      "name": "Dr. Ishita Shah",
+      "role": "Senior Consultant - Cardiac Science",
+      "successrate": "95%",
+      "rate": 1617,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Skin Glow Expert",
+      "phone": "+1-981-015-7985",
+      "email": "robertsjohnathan@yahoo.com"
+    },
+    {
+      "name": "Dr. Anika Patel",
+      "role": "Senior Specialist - Cardiac Science",
+      "successrate": "96%",
+      "rate": 1438,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Child Care Expert",
+      "phone": "(979)824-6200",
+      "email": "hunter15@young-day.com"
+    },
+    {
+      "name": "Dr. Riya Sharma",
+      "role": "Legend - Cardiac Science",
+      "successrate": "93%",
+      "rate": 478,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Neuro Genius",
+      "phone": "(163)407-2076",
+      "email": "sethtrujillo@perkins.com"
+    }
+  ],
+  "Emergency Medicine": [
+    {
+      "name": "Dr. Sara Verma",
+      "role": "Expert - Emergency Medicine",
+      "successrate": "99%",
+      "rate": 1320,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Top Performer",
+      "phone": "007.143.9122x40129",
+      "email": "james53@yahoo.com"
+    },
+    {
+      "name": "Dr. Ishaan Joshi",
+      "role": "Legend - Emergency Medicine",
+      "successrate": "90%",
+      "rate": 406,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Bone Specialist",
+      "phone": "876-298-2587x9138",
+      "email": "jeremythompson@sanchez-aguilar.net"
+    },
+    {
+      "name": "Dr. Rudra Chopra",
+      "role": "Consultant - Emergency Medicine",
+      "successrate": "90%",
+      "rate": 332,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Bone Specialist",
+      "phone": "001-310-199-7172x0242",
+      "email": "fieldslorraine@chen-cole.com"
+    },
+    {
+      "name": "Dr. Shaurya Aggarwal",
+      "role": "Legend - Emergency Medicine",
+      "successrate": "96%",
+      "rate": 1096,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Child Care Expert",
+      "phone": "(540)004-4239",
+      "email": "parklaura@tucker-munoz.com"
+    },
+    {
+      "name": "Dr. Anaya Jain",
+      "role": "Expert - Emergency Medicine",
+      "successrate": "94%",
+      "rate": 409,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Bone Specialist",
+      "phone": "225.951.7031",
+      "email": "andrea13@brown.com"
+    },
+    {
+      "name": "Dr. Ayaan Tripathi",
+      "role": "Specialist - Emergency Medicine",
+      "successrate": "85%",
+      "rate": 1767,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Gut Specialist",
+      "phone": "+1-008-668-6214x2400",
+      "email": "jennifer28@smith-robertson.com"
+    },
+    {
+      "name": "Dr. Dhruv Kapoor",
+      "role": "Expert - Emergency Medicine",
+      "successrate": "89%",
+      "rate": 756,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Neuro Genius",
+      "phone": "086-840-6728",
+      "email": "robertsonemily@hotmail.com"
+    },
+    {
+      "name": "Dr. Aarav Nair",
+      "role": "Senior Specialist - Emergency Medicine",
+      "successrate": "96%",
+      "rate": 1172,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Top Performer",
+      "phone": "391.961.0387x645",
+      "email": "moorevictoria@gmail.com"
+    },
+    {
+      "name": "Dr. Aadhya Tripathi",
+      "role": "Specialist - Emergency Medicine",
+      "successrate": "98%",
+      "rate": 464,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Child Care Expert",
+      "phone": "(365)737-8595x91432",
+      "email": "msanchez@yahoo.com"
+    },
+    {
+      "name": "Dr. Aditya Kumar",
+      "role": "Senior Specialist - Emergency Medicine",
+      "successrate": "94%",
+      "rate": 1772,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Gut Specialist",
+      "phone": "240.078.9355x5575",
+      "email": "kimberly35@gray.com"
+    },
+    {
+      "name": "Dr. Om Verma",
+      "role": "Senior Consultant - Emergency Medicine",
+      "successrate": "99%",
+      "rate": 896,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Child Care Expert",
+      "phone": "840-914-0675x5627",
+      "email": "charlottesutton@yahoo.com"
+    }
+  ],
+  "Infectious Disease and Infection Control": [
+    {
+      "name": "Dr. Vihaan Mishra",
+      "role": "Legend - Infectious Disease and Infection Control",
+      "successrate": "94%",
+      "rate": 567,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Child Care Expert",
+      "phone": "893.717.6498x97746",
+      "email": "heidibarnett@hotmail.com"
+    },
+    {
+      "name": "Dr. Arjun Rao",
+      "role": "Specialist - Infectious Disease and Infection Control",
+      "successrate": "99%",
+      "rate": 1762,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Visionary Healer",
+      "phone": "(140)251-0391x13416",
+      "email": "kennethlee@gmail.com"
+    },
+    {
+      "name": "Dr. Saanvi Patel",
+      "role": "Specialist - Infectious Disease and Infection Control",
+      "successrate": "99%",
+      "rate": 481,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Quick Response Star",
+      "phone": "044.682.2878x46233",
+      "email": "howelllaurie@yahoo.com"
+    },
+    {
+      "name": "Dr. Krishna Sen",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "87%",
+      "rate": 832,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Skin Glow Expert",
+      "phone": "(975)760-4241x5817",
+      "email": "johnsonnathaniel@griffith.com"
+    },
+    {
+      "name": "Dr. Diya Mehta",
+      "role": "Expert - Infectious Disease and Infection Control",
+      "successrate": "95%",
+      "rate": 391,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Healing Star",
+      "phone": "001-251-481-0404x688",
+      "email": "thomassmith@yahoo.com"
+    },
+    {
+      "name": "Dr. Sai Jain",
+      "role": "Senior Consultant - Infectious Disease and Infection Control",
+      "successrate": "92%",
+      "rate": 1876,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Healing Star",
+      "phone": "+1-110-661-2787x07782",
+      "email": "hhudson@gonzalez.org"
+    }
+  ],
+  "Internal Medicine and Allied Science": [
+    {
+      "name": "Dr. Vanya Chopra",
+      "role": "Senior Consultant - Internal Medicine and Allied Science",
+      "successrate": "91%",
+      "rate": 1847,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Gut Specialist",
+      "phone": "+1-552-186-8175x223",
+      "email": "davismolly@hotmail.com"
+    },
+    {
+      "name": "Dr. Ansh Joshi",
+      "role": "Specialist - Internal Medicine and Allied Science",
+      "successrate": "86%",
+      "rate": 1006,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Child Care Expert",
+      "phone": "110-185-5993",
+      "email": "tammy68@yahoo.com"
+    }
+  ],
+  "Neurosurgery": [
+    {
+      "name": "Dr. Aarohi Kumar",
+      "role": "Consultant - Neurosurgery",
+      "successrate": "86%",
+      "rate": 1012,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "male",
+      "title": "Top Performer",
+      "phone": "001-336-070-4498",
+      "email": "jeffrey10@johnson.net"
+    },
+    {
+      "name": "Dr. Aisha Chopra",
+      "role": "Legend - Neurosurgery",
+      "successrate": "87%",
+      "rate": 1720,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Top Performer",
+      "phone": "961.319.8795",
+      "email": "chrismalone@campbell.com"
+    },
+    {
+      "name": "Dr. Kiara Sharma",
+      "role": "Legend - Neurosurgery",
+      "successrate": "90%",
+      "rate": 1232,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Skin Glow Expert",
+      "phone": "001-161-123-9544x25477",
+      "email": "kmcbride@landry.com"
+    },
+    {
+      "name": "Dr. Vivaan Sen",
+      "role": "Senior Consultant - Neurosurgery",
+      "successrate": "99%",
+      "rate": 491,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Backbone Expert",
+      "phone": "335-472-4554",
+      "email": "rmelton@yahoo.com"
+    },
+    {
+      "name": "Dr. Rayan Aggarwal",
+      "role": "Specialist - Neurosurgery",
+      "successrate": "96%",
+      "rate": 1770,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Skin Glow Expert",
+      "phone": "(709)805-3152x09304",
+      "email": "anita60@kelly.com"
+    }
+  ],
+  "Spine Surgery": [],
+  "Neurology": [],
+  "Heart & Lung Transplant and Mechanical Circulatory Support": [],
+  "ENT, Head & Neck Surgery": [],
+  "Orthopaedics": [
+    {
+      "name": "Dr. Ira Sen",
+      "role": "Senior Specialist - Orthopaedics",
+      "successrate": "98%",
+      "rate": 1736,
+      "availability": [
+        "4-5",
+        "6-7",
+        "7-8",
+        "9-10",
+        "11-12"
+      ],
+      "gender": "female",
+      "title": "Neuro Genius",
+      "phone": "001-406-129-7631",
+      "email": "janice02@yahoo.com"
+    }
+  ],
+  "Nephrology": [],
+  "Urology": [],
+  "Liver Diseases, Transplant & HPB Surgery": [],
+  "Hematology": [],
+  "Laboratory Service and Blood Bank": [],
+  "Rehabilitation Medicine": [],
+  "Shoulder, Elbow, Hand & Sports Injuries": [],
+  "Pediatrics and Neonatology": [],
+  "Gastroenterology & Hepatology": [],
+  "Ophthalmology": [],
+  "Maxillofacial & Dental Surgery": [],
+  "Dermatology": [],
+  "Cardiac Anaesthesia & CT ICU": [],
+  "Plastic Surgery": [],
+  "Psychiatry": [],
+  "IVF": []
+}

@@ -65,7 +65,17 @@ const Navbar = () => {
       <div className="relative">
         <div
           className="bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center text-xl cursor-pointer hover:ring-1 ring-offset-2 ring-offset-white"
-          onClick={() => setOpen(!open)}
+          onClick={() =>{
+            if(open){
+              setOpen(false)
+              return
+            }
+            setOpen(true);
+            setTimeout(() => {
+              setOpen(false);
+            }, 2000);
+            }
+          }
         >
           {profile}
         </div>

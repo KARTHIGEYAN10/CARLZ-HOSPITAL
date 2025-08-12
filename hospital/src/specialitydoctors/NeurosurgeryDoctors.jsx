@@ -2,7 +2,7 @@ import React from 'react'
 import femaledoctor from "../assets/femaledoctor.png"
 import maledoctor from "../assets/maledoctor.png"
 import { useNavigate } from 'react-router-dom'
-import d from "../doctordatas.json"
+import d from "../final_doctors_dataset2_final_sorted.json"
 import { useuserdoctorcontext } from '../context/UserContext'
 const NeurosurgeryDoctors = () => {
     const {setDoctor}=useuserdoctorcontext()

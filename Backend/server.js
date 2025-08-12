@@ -12,6 +12,7 @@ const appointmentbooking = require("./routes/AppointmentBooking");
 const Appoinmentbook = require("./models/appoinmentmodel");
 const userlog = require("./routes/Userlogs");
 const mongodbconnect = require("./mongodbsetup");
+const jobrouter=require("./routes/JobApplyRoute");
 dotenv.config();
 
 const app = express();
@@ -27,6 +28,7 @@ app.use(cookieParser());
 const PORT = process.env.PORT;
 mongodbconnect()
 app.use("/api", authrouter);
+app.use("/api",jobrouter);
 app.post("/api/appoinment/booking",protectroute,appointmentbooking)
 
 app.post('/api/google-login', async (req, res) => {

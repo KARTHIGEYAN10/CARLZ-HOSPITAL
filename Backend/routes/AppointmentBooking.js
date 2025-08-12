@@ -2,18 +2,21 @@ const Appoinmentbook = require("../models/appoinmentmodel")
 
 const appointmentbooking=async(req,res)=>{
     try{
-        const {doctorname,doctorrate,doctorsuccessrate,doctorrole,dateofvisit,timeofvisit,modeofappointment}=req.body
+        const {username,useremail,doctorname,doctoremail,doctorrate,doctorsuccess,doctorrole,dateofvisit,timeofvisit,modeofappointment,reasonforappointment,status}=req.body
         const user=req.user
         const newappoinment={
-            user_name:user.username,
-            user_email:user.email,
+            user_name:username,
+            user_email:useremail,
             doctor_name:doctorname,
+            doctor_email:doctoremail,
             doctor_rate:doctorrate,
-            doctor_success:doctorsuccessrate,
+            doctor_success:doctorsuccess,
             doctor_role:doctorrole,
             date_visit:dateofvisit,
             time_visit:timeofvisit,
-            mode_appoinment:modeofappointment
+            mode_appoinment:modeofappointment,
+            reason_for_appointment:reasonforappointment,
+            status:status
         }
         console.log(newappoinment)
         const result=await Appoinmentbook.create(newappoinment)

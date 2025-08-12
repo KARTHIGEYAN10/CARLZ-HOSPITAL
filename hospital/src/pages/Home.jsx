@@ -16,6 +16,7 @@ import h from "../assets/8.jpeg"
 import i from "../assets/9.jpeg"
 import j from "../assets/10.jpeg"
 import { useprofilecontext } from '../context/profileContext';
+import Footer from '../container/Footer';
 const Home = () => {
   const imagelist=[one,two,three,four]
   const slidelist=[a,b,c,d,e,f,g,h,i,j]
@@ -49,30 +50,30 @@ const Home = () => {
         <Navbar />
     </div>
     <div>
-    <div className='flex justify-center items-center mt-4'>
-        <div className='w-[65%] relative'>
+    <div className='flex justify-center items-center'>
+        <div className='w-full relative'>
         {/* Left Arrow */}
-        <span className='absolute top-1/2 -left-8 transform -translate-y-1/2 text-2xl cursor-pointer' onClick={handleimageleft}>
+        <span className='absolute top-1/2 left-8 transform -translate-y-1/2 text-2xl cursor-pointer bg-gray-400 py-2 px-4  rounded-full' onClick={handleimageleft}>
           &#129120;
         </span>
 
         {/* Image */}
-        <img src={imagelist[index]} className='w-full rounded-lg' />
+        <img src={imagelist[index]} className='w-full' />
 
         {/* Right Arrow */}
-        <span className='absolute top-1/2 -right-8 transform -translate-y-1/2 text-2xl cursor-pointer' onClick={handleimageright}>
+        <span className='absolute top-1/2 right-8 transform -translate-y-1/2 text-2xl cursor-pointer bg-gray-400 py-2 px-4  rounded-full' onClick={handleimageright}>
         🡢
         </span>
       </div>
     </div>
-    <div className='flex justify-around  w-[90%] mx-auto mt-5'>
+    <div className='flex justify-around  w-full mx-auto mt-5'>
       <div className='md:w-4/5'>
         <p className='font-bold border-b-1 border-black md:text-2xl md:border-none'>About Us</p>
-        <p className='md:text-center'>
+        <p className=''>
         At carlz, we are committed to delivering world-class healthcare with a human touch. As a multi-speciality hospital, our mission is to provide compassionate, patient-centered medical services backed by advanced technology and a team of highly qualified doctors and medical professionals.
         With a focus on quality, safety, and innovation, we aim to make a difference in the lives of those we serve. Whether it's preventive care, complex surgeries, or emergency treatment, we ensure every patient receives personalized care in a comforting and healing environment.
         </p>
-        <strong className='block w-fit mx-auto'>Your health is our priority, and your trust is our greatest achievement.</strong>
+        <strong className='block w-fit mx-auto mt-4'>YOUR HEALTH IS OUR PRIORITY, AND YOUR TRUST IS OUR GREATEST ACHIEVEMENT.</strong>
       </div>
       <div className='hidden md:block'>
         <video
@@ -103,6 +104,9 @@ const Home = () => {
       <div>
         
       </div>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )
