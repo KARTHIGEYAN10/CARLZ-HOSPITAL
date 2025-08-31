@@ -16,9 +16,27 @@ import h from "../assets/8.jpeg"
 import i from "../assets/9.jpeg"
 import j from "../assets/10.jpeg"
 import { useprofilecontext } from '../context/profileContext';
+import mission from "../assets/mission.png"
+import value from "../assets/value.png"
+import vision from "../assets/vision.png"
 import Footer from '../container/Footer';
+import { MdHistory } from "react-icons/md";
+import { FaHistory } from "react-icons/fa";
+import { FaRegFileAlt } from "react-icons/fa";
+import { FaListAlt } from "react-icons/fa";
+import { MdReceiptLong } from "react-icons/md";
+import { HiOutlineDocumentText } from "react-icons/hi";
+import { FaCalendarCheck } from "react-icons/fa";
+import { MdEventAvailable } from "react-icons/md";
+import { FaQuestionCircle } from "react-icons/fa";
+import { MdContactSupport } from "react-icons/md";
+import FeedBackForm from '../container/FeedBackForm';
+
+
+
+
 const Home = () => {
-  const imagelist=[one,two,three,four]
+  const imagelist=[one,three,four]
   const slidelist=[a,b,c,d,e,f,g,h,i,j]
   const [index,setIndex]=useState(0)
   const handleimageleft=()=>{
@@ -40,7 +58,7 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex(prevIndex => (prevIndex === imagelist.length - 1 ? 0 : prevIndex + 1));
-    }, 4000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -53,43 +71,70 @@ const Home = () => {
     <div className='flex justify-center items-center'>
         <div className='w-full relative'>
         {/* Left Arrow */}
-        <span className='absolute top-1/2 left-8 transform -translate-y-1/2 text-2xl cursor-pointer bg-gray-400 py-2 px-4  rounded-full' onClick={handleimageleft}>
+        {/* <span className='absolute top-1/2 left-5 transform -translate-y-1/2 text-2xl cursor-pointer bg-[#495057] py-2 px-4  rounded-full' onClick={handleimageleft}>
           &#129120;
-        </span>
+        </span> */}
 
         {/* Image */}
         <img src={imagelist[index]} className='w-full' />
 
         {/* Right Arrow */}
-        <span className='absolute top-1/2 right-8 transform -translate-y-1/2 text-2xl cursor-pointer bg-gray-400 py-2 px-4  rounded-full' onClick={handleimageright}>
+        {/* <span className='absolute top-1/2 right-5 transform -translate-y-1/2 text-2xl cursor-pointer bg-[#495057] py-2 px-4  rounded-full' onClick={handleimageright}>
         🡢
-        </span>
+        </span> */}
       </div>
     </div>
-    <div className='flex justify-around  w-full mx-auto mt-5'>
-      <div className='md:w-4/5'>
-        <p className='font-bold border-b-1 border-black md:text-2xl md:border-none'>About Us</p>
-        <p className=''>
-        At carlz, we are committed to delivering world-class healthcare with a human touch. As a multi-speciality hospital, our mission is to provide compassionate, patient-centered medical services backed by advanced technology and a team of highly qualified doctors and medical professionals.
-        With a focus on quality, safety, and innovation, we aim to make a difference in the lives of those we serve. Whether it's preventive care, complex surgeries, or emergency treatment, we ensure every patient receives personalized care in a comforting and healing environment.
-        </p>
-        <strong className='block w-fit mx-auto mt-4'>YOUR HEALTH IS OUR PRIORITY, AND YOUR TRUST IS OUR GREATEST ACHIEVEMENT.</strong>
+    <div className='flex flex-col md:flex-row md:justify-around items-center md:w-full h-fit md:h-80  bg-black '>
+      <div className='bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] md:h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+        <MdReceiptLong size={40} color="orange" className='mx-auto mt-10' />
+        <p className='rowdies-regular mt-5 text-center'>Our History</p>
       </div>
-      <div className='hidden md:block'>
-        <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-[220px]  rounded-xl object-fill"
-          >
-          <source src={logovideo} type="video/mp4" className='h-[50%]'/>
-          Your browser does not support the video tag.
-        </video> 
+      <div className=' bg-amber-50 md:rounded-md  p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+        <MdEventAvailable size={40} color="orange"  className='mx-auto mt-10'/>
+        <p className='w-full mx-auto rowdies-regular mt-5 text-center'>Book an Appointment</p>
+      </div>
+      <div className=' bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+        <FaQuestionCircle size={40} color="orange" className='mx-auto mt-10' />
+        <p className='rowdies-regular text-center mt-5'>For Enquiry</p>
       </div>
     </div>
-      <div className='w-[90%] mx-auto mt-4 mb-3'>
-        <p className='border-b-1 w-fit mx-auto text-xl font-semibold'>Hospital Facilities</p>
+    {/* vision and mission and values */}
+    <div className='w-full grid sm:grid-cols-1 md:grid-cols-3 mx-auto mt-0'>
+      {/* vision */}
+      <div className='bg-[#2364aa] md:rounded-md p-3 md:bg-[#fdd85d]'>
+        <div className='w-full'>
+          <img src={vision} alt="" className='object-contain w-50 h-50 mx-auto' />
+        </div>
+        <div className=''>
+          <strong className='rowdies-regular'>Our Vision</strong>
+          <p>To be the most trusted healthcare destination, delivering excellence in patient care, innovation, and compassion — improving lives and setting the standard for quality healthcare in the community.</p>
+        </div>
+      </div>
+      {/* mission */}
+      <div className='p-3 bg-green-800 md:bg-[#fdd85d]  md:rounded-md md:border md:border-x-2 md:border-white sm:hover:scale-110 duration-500 hover:border-none hover:cursor-pointer'>
+        <div className='w-full'>
+          <img src={mission} alt="" className='object-contain w-50 h-50 mx-auto' />
+        </div>
+        <div className=''>
+          <strong className='rowdies-regular'>Our Mission</strong>
+          <p className=''>We are committed to providing world-class healthcare services through advanced medical technology, skilled professionals, and a patient-centered approach. Our mission is to heal, comfort, and inspire hope in every individual we serve.</p>
+        </div>
+      </div>
+      {/* values */}
+      <div className='bg-[#d00000] md:rounded-md p-4 md:bg-[#fdd85d]'>
+        <div className='w-full'>
+          <img src={value} alt="" className='object-contain w-50 h-50 mx-auto' />
+        </div>
+        <div className=''>
+          <strong className='rowdies-regular'>Our Value</strong>
+          <p>We believe in treating every patient with compassion, respect, and dignity. We are committed to excellence in every aspect of care, guided by integrity, honesty, and transparency. </p>
+        </div>
+      </div>
+
+    </div>
+      <div className='w-[90%] mx-auto mt-10 mb-3'>
+        <p className='w-fit mx-auto text-xl rowdies-regular'>Hospital Facilities</p>
+        <div className='mt-1 w-24 h-1 bg-gray-400 mx-auto'></div>
 
         <div className="overflow-hidden mt-4 scroll-container">
           <div className="flex w-max scroll-animation gap-4">
@@ -104,6 +149,9 @@ const Home = () => {
       <div>
         
       </div>
+    </div>
+    <div>
+      <FeedBackForm/>
     </div>
     <div>
       <Footer/>

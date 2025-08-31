@@ -13,8 +13,10 @@ const Appoinmentbook = require("./models/appoinmentmodel");
 const userlog = require("./routes/Userlogs");
 const mongodbconnect = require("./mongodbsetup");
 const jobrouter=require("./routes/JobApplyRoute");
+const feedbackrouter=require("./routes/FeedBackSubmission");
+const googlerouter=require("./routes/GoogleLogin");
 dotenv.config();
-
+//basic setup
 const app = express();
 
 app.use(express.json());
@@ -23,38 +25,19 @@ app.use(cors({
     methods:"GET,POST,PATCH,DELETE",
     credentials: true, 
 }));
-
 app.use(cookieParser());
+
 const PORT = process.env.PORT;
 mongodbconnect()
+
+//routers
 app.use("/api", authrouter);
 app.use("/api",jobrouter);
+app.use("/api",feedbackrouter);
 app.post("/api/appoinment/booking",protectroute,appointmentbooking)
+app.use("/api",googlerouter);
+app.post("/api/appoinment/logs",protectroute,userlog)
 
-app.post('/api/google-login', async (req, res) => {
-    const { token } = req.body;
-  
-    try {
-      const response = await axios.get(`https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=${token}`);
-      const { name, email } = response.data;
-      console.log(email);
-      const check=await logeduser.findOne({email:email})
-      if(check){
-        GenerateToken(check._id,res)
-        return res.status(201).json(check)
-      }else{
-        const n={
-          username:n,
-          email:email,
-          password:"oauthlogin"
-        }
-        const result=await logeduser.create(n)
-        return res.status(201).json(result)
-      }
-    } catch (error) {
-      res.status(400).json({ error: 'Google login failed' });
-    }
-  });
 app.post("/api/appointment/check",async (req,res)=>{
   try{
     const {dateselection,doctorname}=req.body
@@ -66,7 +49,7 @@ app.post("/api/appointment/check",async (req,res)=>{
     return res.status(500).json("Internal Server Error")
   }
 })
-app.post("/api/appoinment/logs",protectroute,userlog)
+
 app.post("/api/appointment/response",async(req,res)=>{
   try{
     const {date_visit,doctor_name,doctor_rate,doctor_role,doctor_success,mode_appoinment,time_visit,user_email,user_name}=req.body
@@ -116,6 +99,7 @@ app.post("/api/appointment/response",async(req,res)=>{
     return res.status(500).json("Internal Server Error")
   }
 })
+
 
 app.listen(PORT, () => {
     console.log(`App is running on port ${PORT}`);

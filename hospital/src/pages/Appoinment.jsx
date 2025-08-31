@@ -216,11 +216,11 @@ const Appoinment = () => {
                                                 ? "border-2 border-black text-red-600 cursor-not-allowed"
                                                 : timeselection === time
                                                     ? "bg-green-900 text-white hover:bg-green-800 cursor-pointer"
-                                                    : "bg-green-500 text-gray-950 hover:bg-green-300 cursor-pointer text-xl"
+                                                    : "bg-green-500 text-gray-950 hover:bg-green-600 cursor-pointer text-xl"
                                         }`}
                                         onClick={() => handletimeselection(time, crossedtimeslots)}
                                     >
-                                        {time}
+                                        {time} pm
                                     </span>
                                 </div>
                             ))}

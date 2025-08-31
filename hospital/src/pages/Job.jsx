@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Navbar from '../container/navbar';
 import logo from '../assets/CARL`Z.png';
 import axios from 'axios';
+import Footer from '../container/Footer';
+import toast from 'react-hot-toast';
 
 const Job = () => {
   const [jobdetails, setjobdetails] = useState({
@@ -33,9 +35,15 @@ const Job = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    let res = await axios.post("/api/jobapply", jobdetails);
-    console.log(res);
+    try{
+      e.preventDefault();
+      let res = await axios.post("/api/jobapply", jobdetails);
+      toast.success("Job applied sucessfully")
+      console.log(res);
+    }catch(error){
+      toast.error(error.message)
+      console.log(error)
+    }
   };
 
   const handlereset = () => {
@@ -128,6 +136,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, fullname: e.target.value })
                 }
+                placeholder='Enter your Full name'
                 required
               />
             </label>
@@ -143,6 +152,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, fathername: e.target.value })
                 }
+                placeholder='Enter your Father name'
               />
             </label>
 
@@ -182,6 +192,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, email: e.target.value })
                 }
+                placeholder='Enter your email'
                 required
               />
             </label>
@@ -277,6 +288,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, street: e.target.value })
                 }
+                placeholder='Enter your street'
               />
             </label>
 
@@ -291,6 +303,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, city: e.target.value })
                 }
+                placeholder='Enter your city'
               />
             </label>
 
@@ -305,6 +318,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, state: e.target.value })
                 }
+                placeholder='Enter your state'
               />
             </label>
 
@@ -319,6 +333,7 @@ const Job = () => {
                 onChange={(e) =>
                   setjobdetails({ ...jobdetails, postalcode: e.target.value })
                 }
+                placeholder='Enter your pin code'
               />
             </label>
 
@@ -377,6 +392,9 @@ const Job = () => {
           </div>
         </form>
       </div>
+    <div>
+      <Footer />
+    </div>
     </>
   );
 };

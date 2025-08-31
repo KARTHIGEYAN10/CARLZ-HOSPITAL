@@ -41,7 +41,7 @@ const Navbar = () => {
     <div className="w-full bg-black text-white px-4 py-3 flex justify-between items-center relative">
       
       {/* Logo or title */}
-      <div className="text-lg font-bold">CARLZ</div>
+      <div className="text-xl font-bold">CARLZ</div>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
@@ -49,7 +49,7 @@ const Navbar = () => {
           <div
             key={i}
             onClick={() => handlePage(item.toLowerCase())}
-            className="cursor-pointer hover:text-blue-400 transition"
+            className="text-lg cursor-pointer hover:text-[#006400] transition"
           >
             {item}
           </div>

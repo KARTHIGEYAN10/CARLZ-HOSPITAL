@@ -27,6 +27,7 @@ import showlderelbow from "../assets/showlderelbow.png"
 import splinesergery from "../assets/splinesergery.png"
 import urology from "../assets/urology.png"
 import { useNavigate } from 'react-router-dom'
+import Footer from '../container/Footer'
 
 const Doctors = () => {
   const navigate=useNavigate()
@@ -94,6 +95,9 @@ const Doctors = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   );
