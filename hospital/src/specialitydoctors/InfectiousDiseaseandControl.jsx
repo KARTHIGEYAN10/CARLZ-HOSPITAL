@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../container/navbar'
 import InfectiousDiseaseandcontrolDoctors from './InfectiousDiseaseandcontrolDoctors'
-import infectiousanddiseasecontrol from "../assets/infectiousanddiseasecontrol.png"
+import infectiousanddiseasecontrol from "../../public/infectiousanddiseasecontrol.png"
 import { useNavigate } from 'react-router-dom'
 const InfectiousDiseaseandControl = () => {
     const navigate=useNavigate()
   return (
     <div className='overflow-x-hidden'>
         <Navbar/>
-        <div className='relative w-full flex justify-between items-center m-3 p-5 bg-[#f5ebe0] rounded-md cursor-pointer mx-auto'>
+        <div className='relative w-full flex justify-between items-center mt-1 p-5 bg-[#f5ebe0] rounded-md cursor-pointer mx-auto'>
             <div className='md:w-[70%]'>
             <h2 className=' m-3 text-3xl'>Infectious Disease & Control</h2>
             <p className='m-3 md:text-center md:text-2xl'>Infectious Disease and Infection Control is dedicated to the prevention, diagnosis, and treatment of a wide range of infectious diseases caused by bacteria, viruses, fungi, and parasites. Our team of specialists provides expert care for conditions such as tuberculosis, HIV/AIDS, hepatitis, and other complex infections.</p>
@@ -17,13 +17,13 @@ const InfectiousDiseaseandControl = () => {
                 <img src={infectiousanddiseasecontrol}/>
             </div>
             <div className='absolute top-1 left-3 transform translate-y-1/2'>
-                <span className='hover:text-blue-600' onClick={()=>navigate("/doctor")}>&#11164; Hospital</span>
+                <span className='hover:text-blue-600' onClick={()=>navigate("/Our-Specialities")}>&#11164; Hospital</span>
             </div>
         </div>
         <div className='w-full'>
                 <p className='w-fit border-b-2 mx-auto text-2xl'>Our Doctors</p>
             </div>
-        <div className='mt-3'>
+        <div className='mt-3 mx-auto w-[85%]'>
             <InfectiousDiseaseandcontrolDoctors />
         </div>
     </div>

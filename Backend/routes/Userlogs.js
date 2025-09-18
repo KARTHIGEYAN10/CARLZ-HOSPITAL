@@ -2,8 +2,9 @@ const mongoose=require("mongoose")
 const Appoinmentbook = require("../models/appoinmentmodel")
 const userlog=async(req,res)=>{
     try{
+        const status=req.body.type
         const user=req.user
-        const result=await Appoinmentbook.find({user_name:user.username})
+        const result=await Appoinmentbook.find({user_name:user.username,status})
         console.log(result)
         return res.status(201).json(result)
     }catch(error){

@@ -36,6 +36,7 @@ import Psychiatry from './specialitydoctors/Psychiatry'
 import Ivf from './specialitydoctors/Ivf'
 import Appoinment from './pages/Appoinment'
 import { useuserdoctorcontext } from './context/UserContext'
+import HistoryPage from './pages/HistoryPage'
 
 function App() {
   const {authuser,doctor}=useuserdoctorcontext()
@@ -46,35 +47,36 @@ function App() {
         }}/>
     <Routes>
       <Route path='/' element={authuser ? <Navigate to="/home" /> : <Login />}/>
-      <Route path='/job' element={authuser ? <Job /> : <Navigate to="/" /> }/>
-      <Route path='/doctor' element={authuser ? <Doctors /> : <Navigate to="/"/>}/>
+      <Route path='/careers' element={authuser ? <Job /> : <Navigate to="/" /> }/>
+      <Route path='/Our-Specialities' element={authuser ? <Doctors /> : <Navigate to="/"/>}/>
       <Route path='/home' element={authuser ? <Home /> : <Navigate to="/"/>}/> 
       <Route path='/register' element={authuser ? <Navigate to="/"/> :<Register />} />
       <Route path='/userlogs' element={authuser ? <Userlogs /> : <Navigate to="/" />}/>
-      <Route path='/cardic-science' element={doctor ? <Navigate to="/appointment"/> :<Cardiac />} />
+      <Route path='/history' element={authuser ? <HistoryPage /> : <Navigate to="/"/>}/>
+      <Route path='/cardiac' element={doctor ? <Navigate to="/appointment"/> :<Cardiac />} />
       <Route path="/emergency-medicine" element={doctor ? <Navigate to="/appointment"/> : <EmergencyMedicine />} />
-      <Route path="/infectious-disease-and-infection-control" element={doctor ? <Navigate to="/appointment"/> :<InfectiousDiseaseandControl />} />
-      <Route path="/internal-medicine-and-alliged-science" element={doctor ? <Navigate to="/appointment"/> :<InternalMedicine />} />
-      <Route path="/neurosergery" element={doctor ? <Navigate to="/appointment"/> :<Neurosurgery />} />
+      <Route path="/infectious-and-disease-control" element={doctor ? <Navigate to="/appointment"/> :<InfectiousDiseaseandControl />} />
+      <Route path="/internal-medicine" element={doctor ? <Navigate to="/appointment"/> :<InternalMedicine />} />
+      <Route path="/Neurosurgery" element={doctor ? <Navigate to="/appointment"/> :<Neurosurgery />} />
       <Route path="/spine-surgery" element={doctor ? <Navigate to="/appointment"/> :<Spinesurgery />} />
-      <Route path="/neurology" element={doctor ? <Navigate to="/appointment"/> :<Neurology />} />
-      <Route path="/heart-and-lung-transplant-and-mechanical-circulatory-support" element={doctor ? <Navigate to="/appointment"/> :<HeadLungTransplant />} />
-      <Route path="/ent-head-and-neck-surgery" element={doctor ? <Navigate to="/appointment"/> :<EntHeadNeckSurgery />} />
-      <Route path="/orthopaedics" element={doctor ? <Navigate to="/appointment"/> :<Orthopaedics />} />
-      <Route path="/nephrology" element={doctor ? <Navigate to="/appointment"/> :<Nephrology />} />
+      <Route path="/Neurology" element={doctor ? <Navigate to="/appointment"/> :<Neurology />} />
+      <Route path="/heart-and-lung-transplant" element={doctor ? <Navigate to="/appointment"/> :<HeadLungTransplant />} />
+      <Route path="/ent-head-and-neck" element={doctor ? <Navigate to="/appointment"/> :<EntHeadNeckSurgery />} />
+      <Route path="/Orthopaedics" element={doctor ? <Navigate to="/appointment"/> :<Orthopaedics />} />
+      <Route path="/Nephrology" element={doctor ? <Navigate to="/appointment"/> :<Nephrology />} />
       <Route path="/urology" element={doctor ? <Navigate to="/appointment"/> :<Urology />} />
-      <Route path="/liver-diseases-transplant-and-hpb-surgery" element={doctor ? <Navigate to="/appointment"/> :<LiverTransplantandHpbsurgery />} />
-      <Route path="/hematology" element={doctor ? <Navigate to="/appointment"/> :<Hematology />} />
+      <Route path="/liver-diseases-and-transplant" element={doctor ? <Navigate to="/appointment"/> :<LiverTransplantandHpbsurgery />} />
+      <Route path="/Hematology" element={doctor ? <Navigate to="/appointment"/> :<Hematology />} />
       <Route path="/laboratory-service-and-blood-bank" element={doctor ? <Navigate to="/appointment"/> :<BloodBank />} />
       <Route path="/rehabilitation-medicine" element={doctor ? <Navigate to="/appointment"/> :<RehabillitationMedicine />} />
-      <Route path="/shoulder-elbow-hand-and-sports-injuries" element={doctor ? <Navigate to="/appointment"/> :<ShoulderElbowInjuries />} />
-      <Route path="/pediatrics-and-neonatology" element={doctor ? <Navigate to="/appointment"/> :<PediatricsandNeonatology />} />
-      <Route path="/gastroenterology-and-hepatology" element={doctor ? <Navigate to="/appointment"/> :<GastroenterologyandHepatology />} />
-      <Route path="/ophthalmolgoy" element={doctor ? <Navigate to="/appointment"/> :<Ophthalmology />} />
-      <Route path="/maxillofacial-and-dental-surgery" element={doctor ? <Navigate to="/appointment"/> :<MaxillofacialandDentalSurgery />} />
+      <Route path="/shoulder-and-elbow" element={doctor ? <Navigate to="/appointment"/> :<ShoulderElbowInjuries />} />
+      <Route path="/pediatrics" element={doctor ? <Navigate to="/appointment"/> :<PediatricsandNeonatology />} />
+      <Route path="/gastro" element={doctor ? <Navigate to="/appointment"/> :<GastroenterologyandHepatology />} />
+      <Route path="/ophthalmology" element={doctor ? <Navigate to="/appointment"/> :<Ophthalmology />} />
+      <Route path="/dental-surgery" element={doctor ? <Navigate to="/appointment"/> :<MaxillofacialandDentalSurgery />} />
       <Route path="/dermatology" element={doctor ? <Navigate to="/appointment"/> :<Dermatology />} />
       <Route path="/cardiac-anaesthesia-and-ct-icu" element={doctor ? <Navigate to="/appointment"/> :<CardiacAnaesthesiaandCTICU />} />
-      <Route path="/plastic-sergery" element={doctor ? <Navigate to="/appointment"/> :<PlasticSurgery />} />
+      <Route path="/plastic-surgery" element={doctor ? <Navigate to="/appointment"/> :<PlasticSurgery />} />
       <Route path="/psychiatry" element={doctor ? <Navigate to="/appointment"/> :<Psychiatry />} />
       <Route path="/ivf" element={doctor ? <Navigate to="/appointment"/> :<Ivf />} />
       <Route path='/appointment' element={authuser ? <Appoinment /> : <Navigate to="/"/>}/>

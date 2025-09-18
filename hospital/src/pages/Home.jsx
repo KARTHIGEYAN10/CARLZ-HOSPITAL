@@ -31,11 +31,13 @@ import { MdEventAvailable } from "react-icons/md";
 import { FaQuestionCircle } from "react-icons/fa";
 import { MdContactSupport } from "react-icons/md";
 import FeedBackForm from '../container/FeedBackForm';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const Home = () => {
+  const navigate=useNavigate();
   const imagelist=[one,three,four]
   const slidelist=[a,b,c,d,e,f,g,h,i,j]
   const [index,setIndex]=useState(0)
@@ -85,11 +87,13 @@ const Home = () => {
       </div>
     </div>
     <div className='flex flex-col md:flex-row md:justify-around items-center md:w-full h-fit md:h-80  bg-black '>
-      <div className='bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] md:h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+      <div className='bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] md:h-[200px] hover:bg-[#e9ecef] cursor-pointer'
+      onClick={()=>navigate("/history")}>
         <MdReceiptLong size={40} color="orange" className='mx-auto mt-10' />
         <p className='rowdies-regular mt-5 text-center'>Our History</p>
       </div>
-      <div className=' bg-amber-50 md:rounded-md  p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+      <div className=' bg-amber-50 md:rounded-md  p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'
+      >
         <MdEventAvailable size={40} color="orange"  className='mx-auto mt-10'/>
         <p className='w-full mx-auto rowdies-regular mt-5 text-center'>Book an Appointment</p>
       </div>

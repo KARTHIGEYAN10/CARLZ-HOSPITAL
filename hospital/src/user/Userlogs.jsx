@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../container/navbar'
 import Userlog from './Userlog'
 
@@ -28,7 +28,7 @@ const Userlogs = () => {
                 </div>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-5 gap-4 mx-5 mt-10'>
-                <Userlog curfiltertime={curfiltertime} setCurfiltertime={setCurfiltertime}/>
+                <Userlog curfiltertime={curfiltertime} setCurfiltertime={setCurfiltertime} apptype={apptype} setApptype={setApptype}/>
             </div>
         </div>
     </div>

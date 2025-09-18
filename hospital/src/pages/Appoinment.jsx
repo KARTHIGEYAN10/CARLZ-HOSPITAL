@@ -51,7 +51,7 @@ const Appoinment = () => {
 
     const handleDeselectDoctor = () => {
         setDoctor(null);
-        navigate('/doctor');
+        navigate('/Our-Specialities');
     };
 
     const HandleDoctorAvailabilityCheck = async () => {
@@ -89,7 +89,7 @@ const Appoinment = () => {
                 timeofvisit: timeselection,
                 modeofappointment: modeofappointment,
                 reasonforappointment: reasonref.current.value,
-                status: "Appointed"
+                status: "ongoing"
             };
             await axios.post("/api/appoinment/booking", data);
             toast.success("Appointment booked successfully");
@@ -131,7 +131,7 @@ const Appoinment = () => {
                             <button className='bg-white rounded-md font-medium px-3 py-2 hover:cursor-pointer text-black hover:bg-amber-400'
                                 onClick={() => navigate("/home")}>Go To Home</button>
                             <button className='bg-white rounded-md px-3 py-2 font-medium hover:cursor-pointer text-black hover:bg-amber-400'
-                                onClick={() => navigate("/doctor")}>Select Doctor</button>
+                                onClick={() => navigate("/Our-Specialities")}>Select Doctor</button>
                         </div>
                     </div>
                 </div>
@@ -184,6 +184,27 @@ const Appoinment = () => {
                             <strong>Rate :</strong>
                             <p><strong>₹</strong> {doctor.rate} </p>
                         </div>
+                    </div>
+                </div>
+                <div className='mb-10 flex justify-center'>
+                    <div className='flex flex-row justify-between gap-10'>
+                        <label htmlFor="patient-nameid" className='patient-name'>
+                            <p className='patient-name'>Name of the Patient</p>
+                            <input type="text" id='patient-nameid' className='bg-[#f5f3f4] px-2 py-4 rounded-md h-10 w-[300px]' placeholder='Enter name here' required/>
+                        </label>
+                        <label htmlFor="patient-ageid" className='patient-age'>
+                            <p className='patient-age'>Patient Age</p>
+                            <input type="number" id='patient-ageid' className='bg-[#f5f3f4] px-2 py-4 rounded-md h-10 w-[300px]' placeholder='Enter age here' required/>
+                        </label>
+                        <label htmlFor="patient-genderid" className='patient-gender text-black'>
+                            <p className='patient-gender'>Patient Gender</p>
+                            <select name="gender" id="patient-genderid" className='rounded-md py-2 px-2 text-black border-black border-2'>
+                                <option value="select an option">select an option</option>
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                                <option value="prefer not to say">prefer not to say</option>
+                            </select>
+                        </label>
                     </div>
                 </div>
                 <div className='flex justify-center items-start gap-10'>

@@ -61,7 +61,7 @@ const FeedBackForm = () => {
                 <div>
                     <label htmlFor="subject-id" className='subject-class'>
                         <p className='subject-class mb-2 text-xl'>Subject</p>
-                        <input id='subject-id' type="text" className='bg-white text-black px-3 py-2 w-[300px] rounded-md outline-none' placeholder='Enter subject here' required
+                        <input id='subject-id' type="text" className='bg-white text-black px-3 py-2 w-[300px] rounded-md outline-none font-bold' placeholder='Enter subject here' required
                         onChange={(e)=>handledata(e.target.name,e.target.value)} value={formdata.subject} name='subject'/>
                     </label>
                     <label htmlFor="paragraph-id" className='paragraph-class'>

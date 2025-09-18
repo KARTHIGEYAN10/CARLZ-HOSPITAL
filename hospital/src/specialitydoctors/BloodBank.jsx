@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../container/navbar'
 import BloodBankStaff from './BloodBankStaff'
-import laboratoryServiceandBloodBank from "../assets/LaboratoryServiceandBloodBank.png"
+import laboratoryServiceandBloodBank from "../../public/LaboratoryServiceandBloodBank.png"
 import { useNavigate } from 'react-router-dom'
 const BloodBank = () => {
     const navigate=useNavigate()
@@ -17,13 +17,13 @@ const BloodBank = () => {
                 <img src={laboratoryServiceandBloodBank}/>
             </div>
             <div className='absolute top-1 left-3 transform translate-y-1/2'>
-                <span className='hover:text-blue-600' onClick={()=>navigate("/doctor")}>&#11164; Hospital</span>
+                <span className='hover:text-blue-600' onClick={()=>navigate("/Our-Specialities")}>&#11164; Hospital</span>
             </div>
         </div>
         <div className='w-full'>
                 <p className='w-fit border-b-2 mx-auto text-2xl'>Our Doctors</p>
             </div>
-        <div className='mt-3 '>
+        <div className='mt-3 w-[85%] mx-auto '>
             <BloodBankStaff />
         </div>
     </div>

@@ -15,11 +15,14 @@ const mongodbconnect = require("./mongodbsetup");
 const jobrouter=require("./routes/JobApplyRoute");
 const feedbackrouter=require("./routes/FeedBackSubmission");
 const googlerouter=require("./routes/GoogleLogin");
+const domainrouter=require("./routes/Domainnames");
+const apppointmentdeleterouter=require("./routes/AppointmentDelete");
 dotenv.config();
 //basic setup
 const app = express();
 
 app.use(express.json());
+app.use('/images', express.static('assets'))
 app.use(cors({
     origin: "http://localhost:5173", 
     methods:"GET,POST,PATCH,DELETE",
@@ -36,6 +39,8 @@ app.use("/api",jobrouter);
 app.use("/api",feedbackrouter);
 app.post("/api/appoinment/booking",protectroute,appointmentbooking)
 app.use("/api",googlerouter);
+app.use("/api",domainrouter);
+app.use("/api",apppointmentdeleterouter);
 app.post("/api/appoinment/logs",protectroute,userlog)
 
 app.post("/api/appointment/check",async (req,res)=>{

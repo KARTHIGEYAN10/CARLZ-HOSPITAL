@@ -1,70 +1,43 @@
 import React from 'react'
 import Navbar from '../container/navbar'
 import gdoctors from '../assets/gdoctors.png'
-import cardiac from "../assets/cardiac.jpg"
-import dentalsurgery from "../assets/dentalsurgery.jpeg"
-import dermatology from "../assets/dermatology.jpeg"
-import emergencymedicine from "../assets/emergencymedicine.png"
-import entheadneck from "../assets/entheadandneck.png"
-import gastro from "../assets/gastro.png"
-import hearandlung from "../assets/Heart & Lung Transplant.png"
-import heamtology from "../assets/Hematology.png"
-import infectiousanddiseasecontrol from "../assets/infectiousanddiseasecontrol.png"
-import internalmedicine from  "../assets/internalmedicine.jpg"
-import ivf from "../assets/ivf.jpeg"
-import laboratoryServiceandBloodBank from "../assets/LaboratoryServiceandBloodBank.png"
-import LiverDiseasesTransplant from "../assets/LiverDiseasesTransplant.png"
-import nephrology from "../assets/nephrology.png"
-import neurology from "../assets/neurology.png"
-import neurosurgery from "../assets/neurosurgery.png"
-import ophthalmology from "../assets/ophthalmology.jpeg"
-import orthopaedics from "../assets/Orthopaedics.png"
-import pediatrics from "../assets/pediatrics.png"
-import physicatry from "../assets/physicatry.jpeg"
-import plasticsurgery from "../assets/plasticsurgery.jpeg"
-import rehabilationmedicine from "../assets/rehabilationmedicine.png"
-import showlderelbow from "../assets/showlderelbow.png"
-import splinesergery from "../assets/splinesergery.png"
-import urology from "../assets/urology.png"
 import { useNavigate } from 'react-router-dom'
 import Footer from '../container/Footer'
-
+import { FaSearch } from "react-icons/fa";   // FontAwesome
+import { MdSearch } from "react-icons/md";
+import { useState } from 'react'
+import { useEffect } from 'react'
+import axios from 'axios'
 const Doctors = () => {
   const navigate=useNavigate()
+  const [domainnames,setDomainnames]=useState([]);
   const slugify = (text) =>
     text.toLowerCase().replace(/\s+/g, '-').replace(/,/g, '').replace(/&/g, 'and');
+  const[domainsearch,setDomainsearch]=useState('');
+  const domainapicall=async()=>{
+    try{
+      const res=await axios.get("/api/domain")
+      console.log(res.data);
+      setDomainnames(res.data)
+    }catch(error){
+      console.log(error)
+    }
+  }
+  const filtering=(v)=>{
+    const data=v.toLowerCase();
+    if(data == ""){
+      domainapicall()
+    }
+    setDomainsearch(data);
+    const filterednames=domainnames.filter(item => item.label.toLowerCase().startsWith(data));
+    setDomainnames(filterednames);
+  }
   
-  const departments = [
-    { img: cardiac, label: "Cardic Science" },
-    { img: emergencymedicine, label: "Emergency Medicine" },
-    { img: infectiousanddiseasecontrol, label: "Infectious Disease and Infection Control" },
-    { img: internalmedicine, label: "Internal Medicine and Alliged Science" },
-    { img: neurosurgery, label: "Neurosergery" },
-    { img: splinesergery, label: "Spine Surgery" },
-    { img: neurology, label: "Neurology" },
-    { img: hearandlung, label: "Heart & Lung Transplant and Mechanical Circulatory Support" },
-    { img: entheadneck, label: "ENT, Head & Neck surgery" },
-    { img: orthopaedics, label: "Orthopaedics" },
-    { img: nephrology, label: "Nephrology" },
-    { img: urology, label: "Urology" },
-    { img: LiverDiseasesTransplant, label: "Liver Diseases, Transplant & HPB Surgery" },
-    { img: heamtology, label: "Hematology" },
-    { img: laboratoryServiceandBloodBank, label: "Laboratory Service and Blood Bank" },
-    { img: rehabilationmedicine, label: "Rehabilitation Medicine" },
-    { img: showlderelbow, label: "Shoulder, Elbow, Hand & Sports Injuries" },
-    { img: pediatrics, label: "Pediatrics and Neonatology" },
-    { img: gastro, label: "Gastroenterology & Hepatology" },
-    { img: ophthalmology, label: "Ophthalmolgoy" },
-    { img: dentalsurgery, label: "Maxillofacial & Dental Surgery" },
-    { img: dermatology, label: "Dermatology" },
-    { img: hearandlung, label: "Cardiac Anaesthesia & CT ICU" },
-    { img: plasticsurgery, label: "Plastic sergery" },
-    { img: physicatry, label: "Psychiatry" },
-    { img: ivf, label: "Ivf" }
-  ];
-
+  useEffect(()=>{
+    domainapicall()
+  },[])
   return (
-    <>
+    <div className='flex flex-col min-h-screen'>
       <Navbar />
       <div className='w-full'>
       <div className='w-[80%] mx-auto p-5 mt-4 rounded-lg flex flex-col-reverse md:flex-row items-center justify-between  cursor-pointer'
@@ -74,24 +47,33 @@ const Doctors = () => {
         <img src={gdoctors} className='w-30 h-30' />
       </div>
 
-        <div className="w-full mt-4">
-          <p className='text-center border-b-2 w-fit mx-auto'>Consult Doctor By Speciality</p>
+        <div className="w-full mt-7">
+          <p className='text-center text-xl rowdies-regular w-fit mx-auto'>Consult Doctor By Speciality</p>
         </div>
-
+        <div className='w-[200px] h-1 bg-gray-400 mx-auto'></div>
+        <div className='mt-10 '>
+          <div className='relative w-full text-center'>
+            <input type="text" placeholder='Search for domain..' className='bg-[#ebebeb] w-[400px] py-2 px-3 outline-none rounded-2xl cursor-pointer'
+            onChange={(e)=>{filtering(e.target.value);
+            }} value={domainsearch}/>
+            <MdSearch className='text-black text-xl cursor-pointer absolute top-1/2 right-1/2 transform translate-x-45 -translate-y-1/2'/>
+          </div>
+        </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4'>
-          {departments.map(({ img, label }, index) => (
+          {domainnames.map((item, index) => (
             <div
               key={index}
               className='card-hover border rounded-lg p-3 text-center hover:shadow-lg hover:scale-102 hover:bg-amber-400  transition-all duration-500 bg-white cursor-pointer
               '
-              onClick={()=>navigate(`/${slugify(label)}`)}
+              onClick={()=>{navigate(`/${slugify(item.label)}`);
+            console.log(slugify(item.label))}}
             >
               <img
-                src={img}
-                alt={label}
+                src={item.img}
+                alt={item.label}
                 className='w-20 h-20 mx-auto object-cover rounded-full mb-2'
               />
-              <p className='text-sm font-medium'>{label}</p>
+              <p className='text-sm font-medium'>{item.label}</p>
             </div>
           ))}
         </div>
@@ -99,7 +81,7 @@ const Doctors = () => {
       <div>
         <Footer/>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -16,12 +16,12 @@ const Navbar = () => {
     if (value === "home"){
       navigate("/home");
     }
-    else if (value === "doctors") navigate("/doctor");
+    else if (value === "our specialities") navigate("/Our-Specialities");
     else if (value === "appointment"){
       navigate("/appointment");
       console.log("appoinment")
     }
-    else if (value === "job") navigate("/job");
+    else if (value === "careers") navigate("/careers");
     setMobileMenu(false); // close mobile menu on click
   };
   const handlelogout=async()=>{
@@ -45,11 +45,11 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
-        {["Home", "Doctors", "Appointment", "Job"].map((item, i) => (
+        {["Home", "Our Specialities", "Appointment", "Careers"].map((item, i) => (
           <div
             key={i}
             onClick={() => handlePage(item.toLowerCase())}
-            className="text-lg cursor-pointer hover:text-[#006400] transition"
+            className="text-lg cursor-pointer hover:text-[#e9d8a6] transition"
           >
             {item}
           </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             setOpen(true);
             setTimeout(() => {
               setOpen(false);
-            }, 2000);
+            }, 5000);
             }
           }
         >
@@ -93,7 +93,7 @@ const Navbar = () => {
       {/* Mobile Menu Dropdown */}
       {mobileMenu && (
         <div className="absolute top-full left-0 w-full bg-white text-black mt-2 rounded-md shadow-md md:hidden z-10">
-          {["Home", "Doctors", "Appointment", "Job"].map((item, i) => (
+          {["Home", "Our Specialities", "Appointment", "Job"].map((item, i) => (
             <div
               key={i}
               onClick={() => handlePage(item.toLowerCase())}
