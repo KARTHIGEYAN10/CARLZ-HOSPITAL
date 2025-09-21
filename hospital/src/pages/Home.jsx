@@ -93,7 +93,7 @@ const Home = () => {
         <p className='rowdies-regular mt-5 text-center'>Our History</p>
       </div>
       <div className=' bg-amber-50 md:rounded-md  p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'
-      >
+      onClick={()=>navigate("/general-appointment")}>
         <MdEventAvailable size={40} color="orange"  className='mx-auto mt-10'/>
         <p className='w-full mx-auto rowdies-regular mt-5 text-center'>Book an Appointment</p>
       </div>

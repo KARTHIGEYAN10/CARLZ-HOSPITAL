@@ -17,6 +17,7 @@ const feedbackrouter=require("./routes/FeedBackSubmission");
 const googlerouter=require("./routes/GoogleLogin");
 const domainrouter=require("./routes/Domainnames");
 const apppointmentdeleterouter=require("./routes/AppointmentDelete");
+const generalappointmentrouter=require("./routes/GeneralAppointment");
 dotenv.config();
 //basic setup
 const app = express();
@@ -42,6 +43,7 @@ app.use("/api",googlerouter);
 app.use("/api",domainrouter);
 app.use("/api",apppointmentdeleterouter);
 app.post("/api/appoinment/logs",protectroute,userlog)
+app.use("/api",generalappointmentrouter);
 
 app.post("/api/appointment/check",async (req,res)=>{
   try{

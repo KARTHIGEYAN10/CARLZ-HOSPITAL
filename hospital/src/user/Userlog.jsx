@@ -11,7 +11,6 @@ const Userlog = ({curfiltertime,setCurfiltertime,apptype,setApptype}) => {
     try{
       const result=await axios.post("/api/appoinment/logs",{type})
       setUserRecords(result.data)
-      console.log(result.data)
     }catch(error){
       console.log("error userlog(frontend)",error)
     }
@@ -24,7 +23,6 @@ const Userlog = ({curfiltertime,setCurfiltertime,apptype,setApptype}) => {
     try{
       console.log(_id);
       const res=await axios.delete(`/api/appointment/delete/${_id}`);
-      console.log(res)
       toast.success("Appointment deleted sucessfully")
       bringrecords(apptype);
       setViewOpen(false)
@@ -51,7 +49,7 @@ const Userlog = ({curfiltertime,setCurfiltertime,apptype,setApptype}) => {
       <div className='absolute top-[40%] left-1/2 transform -translate-y-1/2 -translate-x-1/2 z-10 bg-[#ebebeb] rounded-md'>
         {viewopen && (
           <div className='w-[400px] h-fit relative'>
-            <p className='px-4 pt-1'>Doctor name: {viewdata.doctor_name}</p>
+            <p className='px-4 pt-7'>Doctor name: {viewdata.doctor_name}</p>
             <p className='px-4 pt-1'>Doctor role: {viewdata.doctor_role}</p>
             <p className='px-4 pt-1'>Doctor appointment: {viewdata.mode_appoinment}</p>
             <p className='px-4 pt-1'>Date of visit: {viewdata.date_visit}</p>
@@ -66,7 +64,7 @@ const Userlog = ({curfiltertime,setCurfiltertime,apptype,setApptype}) => {
               ):""
             }
             <div> 
-              <span className='absolute top-2 right-5 cursor-pointer' onClick={()=>setViewOpen(false)}>&#x2715;</span>
+              <span className='absolute top-1 right-2 cursor-pointer hover:bg-gray-400 p-2' onClick={()=>setViewOpen(false)}>&#x2715;</span>
             </div>
           </div>
         )}

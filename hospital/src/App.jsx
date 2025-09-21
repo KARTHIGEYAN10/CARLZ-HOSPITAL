@@ -37,6 +37,7 @@ import Ivf from './specialitydoctors/Ivf'
 import Appoinment from './pages/Appoinment'
 import { useuserdoctorcontext } from './context/UserContext'
 import HistoryPage from './pages/HistoryPage'
+import GeneralAppointment from './pages/GeneralAppointment'
 
 function App() {
   const {authuser,doctor}=useuserdoctorcontext()
@@ -80,6 +81,7 @@ function App() {
       <Route path="/psychiatry" element={doctor ? <Navigate to="/appointment"/> :<Psychiatry />} />
       <Route path="/ivf" element={doctor ? <Navigate to="/appointment"/> :<Ivf />} />
       <Route path='/appointment' element={authuser ? <Appoinment /> : <Navigate to="/"/>}/>
+      <Route path='/general-appointment' element={authuser ? <GeneralAppointment /> : <Navigate to="/"/>}/>
     </Routes>
     </>
     
