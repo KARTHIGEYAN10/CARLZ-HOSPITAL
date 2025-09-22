@@ -4,34 +4,26 @@ import Navbar from '../container/navbar';
 import Footer from '../container/Footer';
 import axios from 'axios';
 import toast from 'react-hot-toast';
-
+import { FaDownload } from 'react-icons/fa';
+import jsPDF from "jspdf";
+import autoTable from 'jspdf-autotable';
+import hospitalLogo from "../assets/logo.PNG"
+import stamp from "../assets/STAMP.png"
 const GeneralAppointment = () => {
   const [currentDateTime, setCurrentDateTime] = useState("");
-  const [formdata,setFormData]=useState({
-    name:"",
-    age:"",
-    gender:"",
-    dob:"",
-    contactnumber:"",
-    emailaddress:"",
-    appointmenttype:"",
-  })
+  const [downloadButtonVisible, setDownloadButtonVisible] = useState(false);
+  const [token, setToken] = useState(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    age: "",
+    gender: "",
+    dob: "",
+    contactnumber: "",
+    emailaddress: "",
+    appointmenttype: "",
+  });
+
   const navigate = useNavigate();
-
-  const handleFormSubmit = async (e) => {
-    try{
-        e.preventDefault();
-        const final={...formdata,currentdatetime:currentDateTime}
-        console.log("form submitted",final);
-        const res=await axios.post("/api/general-appointment",formdata);
-        toast.success(res.data)
-        console.log(res)
-    }catch(error){
-      toast.error(error);
-      console.log(error);
-    }
-
-  }
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,70 +37,186 @@ const GeneralAppointment = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const finalData = { ...formData, currentdatetime: currentDateTime };
+      const res = await axios.post("/api/general-appointment", finalData);
+
+      const newToken = Math.floor(100 + Math.random() * 900); // 3-digit token
+      setToken(newToken);
+
+      setDownloadButtonVisible(true);
+      toast.success(res.data || "Appointment booked successfully!");
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong. Please try again.");
+    }
+  };
+
+  const handleDownload = () => {
+  console.log("hello");
+  const pdfData = { ...formData };
+  const doc = new jsPDF();
+
+  // 🏥 Add hospital logo at top
+  doc.addImage(hospitalLogo, "PNG", 80, 5, 50, 20);
+
+  // 📝 Add title below the logo
+  doc.setFontSize(18);
+  doc.text("CARLZ Hospital", 105, 35, { align: "center" });
+  doc.text("General Appointment Recepit",105,50,{align:"center"})
+
+  // 📌 Appointment info
+  doc.setFontSize(12);
+  doc.text(`Token Number: ${token}`, 20, 60);
+  doc.text(`Date: ${new Date().toLocaleString()}`, 20, 70);
+
+  // Table data
+  const tableData = [
+    ["Name", pdfData.name],
+    ["Age", pdfData.age],
+    ["Gender", pdfData.gender],
+    ["Date of Birth", pdfData.dob],
+    ["Contact Number", pdfData.contactnumber],
+    ["Email Address", pdfData.emailaddress],
+    ["Appointment Type", pdfData.appointmenttype],
+    ["Appointment Date/Time", currentDateTime],
+  ];
+
+  // Table
+  autoTable(doc, {
+    startY: 80,
+    head: [["Field", "Details"]],
+    body: tableData,
+    theme: "grid",
+    headStyles: { fillColor: [9, 64, 116] },
+    styles: { fontSize: 11, cellPadding: 3 },
+    columnStyles: { 0: { cellWidth: 60, fontStyle: "bold" }, 1: { cellWidth: 120 } },
+  });
+
+  // Footer text
+  const finalY = doc.lastAutoTable.finalY + 20;
+  doc.setFontSize(11);
+  doc.text("✔ Please arrive 10 minutes before your appointment.", 20, finalY);
+  doc.text("✔ Bring this receipt when visiting the hospital.", 20, finalY + 10);
+
+  // 🖼 Add stamp at bottom of page
+  const pageHeight = doc.internal.pageSize.height; // Get total page height
+  doc.addImage(stamp, "PNG", 80, pageHeight - 60, 50, 40); // 40 units above bottom
+
+  // Save PDF
+  doc.save(`${pdfData.name}.pdf`);
+
+  // Reset form
+  setFormData({
+    name: "",
+    age: "",
+    gender: "",
+    dob: "",
+    contactnumber: "",
+    emailaddress: "",
+    appointmenttype: "",
+  });
+  setDownloadButtonVisible(false);
+  setToken(null);
+};
+
+
+
   return (
     <div className="bg-[#094074] flex flex-col min-h-screen">
       <Navbar />
-
-      {/* Main content grows and pushes footer to bottom */}
       <div className="flex-1 flex justify-center items-center py-10">
         <div className="flex flex-col md:flex-row w-[90%] md:w-[75%] lg:w-[60%] mx-auto gap-1 md:gap-0">
-          
+
           {/* Left Form */}
           <div className="w-full md:w-1/2">
-            <form onSubmit={handleFormSubmit} className="md:h-[500px] overflow-y-scroll bg-[#eff2f1] px-3">
+            <form onSubmit={handleFormSubmit} className="md:h-[500px] overflow-y-scroll bg-[#eff2f1] px-3" >
               <p className="text-center mt-2 font-serif font-semibold">General Appointment</p>
 
-              {/* Name */}
-              <label htmlFor="name-id">
-                <p className="text-lg font-mono font-bold mt-3">Name</p>
-                <input type="text" placeholder="Enter patient name" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="name-id" required
-                onChange={(e)=>setFormData({...formdata,name:e.target.value})} value={formdata.name}/>
+              {/* Form Fields */}
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Name</p>
+                <input
+                  type="text"
+                  placeholder="Enter patient name"
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  required
+                />
               </label>
 
-              {/* Age */}
-              <label htmlFor="age-id">
-                <p className="text-lg font-mono font-bold mt-4">Age</p>
-                <input type="number" placeholder="Enter patient age" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="age-id" required 
-                onChange={(e)=>setFormData({...formdata,age:e.target.value})} value={formdata.age}/>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Age</p>
+                <input
+                  type="number"
+                  placeholder="Enter patient age"
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  value={formData.age}
+                  onChange={(e) => setFormData({ ...formData, age: e.target.value })}
+                  required
+                />
               </label>
 
-              {/* Gender */}
-              <label htmlFor="gender-id">
-                <p className="text-lg font-mono font-bold mt-4">Gender</p>
-                <select name="gender" id="gender-id" className="block w-full bg-gray-400 text-lg"
-                onChange={(e)=>setFormData({...formdata,gender:e.target.value})} value={formdata.gender}>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Gender</p>
+                <select
+                  value={formData.gender}
+                  onChange={(e) => setFormData({ ...formData, gender: e.target.value })}
+                  className="block w-full bg-gray-400 text-lg"
+                  required
+                >
                   <option value="">Select any option</option>
-                  <option value="male">male</option>
-                  <option value="female">female</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
                 </select>
               </label>
 
-              {/* DOB */}
-              <label htmlFor="dob-id">
-                <p className="text-lg font-mono font-bold mt-4">Dob</p>
-                <input type="date" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="dob-id" required 
-                onChange={(e)=>setFormData({...formdata,dob:e.target.value})} value={formdata.dob}/>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Date of Birth</p>
+                <input
+                  type="date"
+                  value={formData.dob}
+                  onChange={(e) => setFormData({ ...formData, dob: e.target.value })}
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  required
+                />
               </label>
 
-              {/* Phone */}
-              <label htmlFor="phone-id">
-                <p className="text-lg font-mono font-bold mt-4">Contact number</p>
-                <input type="number" placeholder="Enter phone number" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="phone-id" required 
-                onChange={(e)=>setFormData({...formdata,contactnumber:e.target.value})} value={formdata.contactnumber}/>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Contact Number</p>
+                <input
+                  type="number"
+                  placeholder="Enter phone number"
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  value={formData.contactnumber}
+                  onChange={(e) => setFormData({ ...formData, contactnumber: e.target.value })}
+                  required
+                />
               </label>
 
-              {/* Email */}
-              <label htmlFor="email-id">
-                <p className="text-lg font-mono font-bold mt-4">Email Address</p>
-                <input type="email" placeholder="Enter patient email" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="email-id" required 
-                onChange={(e)=>setFormData({...formdata,emailaddress:e.target.value})} value={formdata.emailaddress}/>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Email Address</p>
+                <input
+                  type="email"
+                  placeholder="Enter patient email"
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  value={formData.emailaddress}
+                  onChange={(e) => setFormData({ ...formData, emailaddress: e.target.value })}
+                  required
+                />
               </label>
 
-              {/* Appointment Type */}
-              <label htmlFor="appointment-id">
-                <p className="text-lg font-mono font-bold mt-4">Appointment Type</p>
-                <select name="app-type" id="appointment-id" className="block w-full bg-gray-400 text-lg"
-                onChange={(e)=>setFormData({...formdata,appointmenttype:e.target.value})} value={formdata.appointmenttype}>
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Appointment Type</p>
+                <select
+                  value={formData.appointmenttype}
+                  onChange={(e) => setFormData({ ...formData, appointmenttype: e.target.value })}
+                  className="block w-full bg-gray-400 text-lg"
+                  required
+                >
                   <option value="">Select type of appointment</option>
                   <option value="General Consultation">General Consultation</option>
                   <option value="Child Health / Pediatric Queries">Child Health / Pediatric Queries</option>
@@ -121,16 +229,40 @@ const GeneralAppointment = () => {
                 </select>
               </label>
 
-              {/* Current Date/Time */}
-              <label htmlFor="curdate-id">
-                <p className="text-lg font-mono font-bold mt-4">Current Date/Time</p>
-                <input type="datetime-local" className="bg-blue-300 px-3 py-2 text-lg block w-full" id="curdate-id" value={currentDateTime} readOnly 
+              <label className="block mt-4">
+                <p className="text-lg font-mono font-bold">Current Date/Time</p>
+                <input
+                  type="datetime-local"
+                  className="bg-blue-300 px-3 py-2 text-lg block w-full"
+                  value={currentDateTime}
+                  readOnly
                 />
               </label>
 
-              <div className="text-center mt-4 mb-5">
-                <button type="submit" className="px-5 py-2 font-sans font-bold text-white rounded-lg bg-green-500 hover:bg-green-400">Submit</button>
+              {/* Buttons */}
+              <div className="flex items-center justify-center mt-4 mb-3">
+                {downloadButtonVisible && (
+                  <button
+                    type="button"
+                    className="flex items-center px-4 py-2 gap-2 font-sans font-bold text-white bg-amber-500 hover:bg-amber-400 rounded-md cursor-pointer"
+                    onClick={handleDownload}
+                  >
+                    Download <FaDownload />
+                  </button>
+                )}
+                <button
+                  type="submit"
+                  className={`${
+                    downloadButtonVisible ? "ml-5" : ""
+                  } px-5 py-2 font-sans font-bold text-white rounded-md bg-green-500 hover:bg-green-400 cursor-pointer`}
+                >
+                  Submit
+                </button>
               </div>
+
+              <p className="text-center text-sm text-gray-600 mb-5">
+                <span className="text-red-500">*</span> After submitting this form, you will receive a <span className="font-semibold">Token Number</span> for your appointment.
+              </p>
             </form>
           </div>
 
@@ -150,6 +282,6 @@ const GeneralAppointment = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default GeneralAppointment;
