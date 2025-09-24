@@ -38,6 +38,7 @@ import Appoinment from './pages/Appoinment'
 import { useuserdoctorcontext } from './context/UserContext'
 import HistoryPage from './pages/HistoryPage'
 import GeneralAppointment from './pages/GeneralAppointment'
+import TreatmentPlans from './pages/TreatmentPlans'
 
 function App() {
   const {authuser,doctor}=useuserdoctorcontext()
@@ -82,6 +83,7 @@ function App() {
       <Route path="/ivf" element={doctor ? <Navigate to="/appointment"/> :<Ivf />} />
       <Route path='/appointment' element={authuser ? <Appoinment /> : <Navigate to="/"/>}/>
       <Route path='/general-appointment' element={authuser ? <GeneralAppointment /> : <Navigate to="/"/>}/>
+      <Route path='/treatment-plans' element={authuser ? <TreatmentPlans /> : <Navigate to="/"/>}/>
     </Routes>
     </>
     

@@ -97,9 +97,10 @@ const Home = () => {
         <MdEventAvailable size={40} color="orange"  className='mx-auto mt-10'/>
         <p className='w-full mx-auto rowdies-regular mt-5 text-center'>Book an Appointment</p>
       </div>
-      <div className=' bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'>
+      <div className=' bg-amber-50 md:rounded-md p-5 w-full  md:w-[230px] h-[200px] hover:bg-[#e9ecef] cursor-pointer'
+      onClick={()=>navigate("/treatment-plans")}>
         <FaQuestionCircle size={40} color="orange" className='mx-auto mt-10' />
-        <p className='rowdies-regular text-center mt-5'>For Enquiry</p>
+        <p className='rowdies-regular text-center mt-5'>Our Scheme</p>
       </div>
     </div>
     {/* vision and mission and values */}
