@@ -19,6 +19,14 @@ const googlerouter = require("./routes/GoogleLogin");
 const domainrouter = require("./routes/Domainnames");
 const apppointmentdeleterouter = require("./routes/AppointmentDelete");
 const generalappointmentrouter = require("./routes/GeneralAppointment");
+const { Router } = require("express");
+const router = Router();
+
+router.get("*", (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
+});
+
+app.use(router);
 
 // Initialize app
 const app = express();
@@ -100,9 +108,7 @@ app.post("/api/appointment/response", async (req, res) => {
 });
 
 // Catch-all: serve frontend for any route not handled by APIs
-app.get("*", (req, res) => {
-  res.sendFile(path.join(frontendPath, "index.html"));
-});
+
 
 // Start server
 app.listen(PORT, () => {
