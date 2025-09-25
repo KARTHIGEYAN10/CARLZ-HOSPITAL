@@ -105,7 +105,7 @@ app.post("/api/appointment/response", async (req, res) => {
 });
 
 // Serve frontend for all other routes
-app.get("/.*/", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../hospital/dist/index.html"));
 });
 
