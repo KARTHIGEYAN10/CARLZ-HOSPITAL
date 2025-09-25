@@ -31,15 +31,16 @@ mongodbconnect();
 app.use(express.json());
 app.use(cookieParser());
 
-// CORS for local dev (change/remove in production)
+// CORS (adjust for production)
 app.use(cors({
   origin: "http://localhost:5173",
   methods: "GET,POST,PATCH,DELETE",
   credentials: true,
 }));
 
-// Serve static frontend files
-app.use(express.static(path.resolve(__dirname, "../hospital/dist")));
+// Serve frontend static files
+const frontendPath = path.resolve(__dirname, "../hospital/dist");
+app.use(express.static(frontendPath));
 app.use('/images', express.static(path.resolve(__dirname, "assets")));
 
 // API routes
@@ -63,12 +64,12 @@ app.post("/api/appointment/check", async (req, res) => {
     }).select("time_visit -_id");
     return res.status(201).json(appointments);
   } catch (error) {
-    console.log("error in check:", error.message);
+    console.log("Error in check:", error.message);
     return res.status(500).json("Internal Server Error");
   }
 });
 
-// Appointment confirmation email
+// Appointment response email
 app.post("/api/appointment/response", async (req, res) => {
   try {
     const { date_visit, doctor_name, doctor_rate, doctor_role, doctor_success, mode_appoinment, time_visit, user_email, user_name } = req.body;
@@ -82,19 +83,13 @@ app.post("/api/appointment/response", async (req, res) => {
     const messageoptions = {
       from: process.env.SENDER_EMAIL,
       to: user_email,
-      subject: "Appointment Confirmation - Scheduled Successfully",
-      html: `
-        <div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
-          <h2 style="color: #2c3e50;">Dear ${user_name},</h2>
-          <p>Your appointment with <strong>Dr. ${doctor_name}</strong> has been successfully scheduled.</p>
-          <p><strong>Doctor Role:</strong> ${doctor_role}</p>
-          <p><strong>Success Rate:</strong> ${doctor_success}</p>
-          <p><strong>Consultation Fee:</strong> ₹${doctor_rate}</p>
-          <p><strong>Date:</strong> ${date_visit}</p>
-          <p><strong>Time:</strong> ${time_visit}</p>
-          <p><strong>Mode:</strong> ${mode_appoinment}</p>
-        </div>
-      `
+      subject: "Appointment Confirmation",
+      html: `<div>
+        <h2>Dear ${user_name}</h2>
+        <p>Your appointment with <strong>Dr. ${doctor_name}</strong> has been scheduled.</p>
+        <p>Role: ${doctor_role}, Success Rate: ${doctor_success}, Fee: ₹${doctor_rate}</p>
+        <p>Date: ${date_visit}, Time: ${time_visit}, Mode: ${mode_appoinment}</p>
+      </div>`
     };
     await transporter.sendMail(messageoptions);
     return res.status(200).json("Email sent successfully");
@@ -104,9 +99,9 @@ app.post("/api/appointment/response", async (req, res) => {
   }
 });
 
-// Serve frontend for all other routes
-app.get("/*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../hospital/dist/index.html"));
+// Catch-all: serve frontend for any route not handled by APIs
+app.get("*", (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
 });
 
 // Start server
