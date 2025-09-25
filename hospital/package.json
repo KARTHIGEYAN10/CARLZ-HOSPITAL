@@ -13,6 +13,7 @@
     "@react-oauth/google": "^0.12.1",
     "@tailwindcss/vite": "^4.1.3",
     "axios": "^1.8.4",
+    "backend": "file:..",
     "daisyui": "^5.0.13",
     "jspdf": "^3.0.3",
     "jspdf-autotable": "^5.0.2",

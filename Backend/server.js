@@ -18,11 +18,12 @@ const googlerouter=require("./routes/GoogleLogin");
 const domainrouter=require("./routes/Domainnames");
 const apppointmentdeleterouter=require("./routes/AppointmentDelete");
 const generalappointmentrouter=require("./routes/GeneralAppointment");
+const path =require("path")
 dotenv.config();
 //basic setup
 const app = express();
-
 app.use(express.json());
+app.use(express.static(path.join(__dirname,"../hospital/dist")))
 app.use('/images', express.static('assets'))
 app.use(cors({
     origin: "http://localhost:5173", 
@@ -31,9 +32,8 @@ app.use(cors({
 }));
 app.use(cookieParser());
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 mongodbconnect()
-
 //routers
 app.use("/api", authrouter);
 app.use("/api",jobrouter);
@@ -106,6 +106,9 @@ app.post("/api/appointment/response",async(req,res)=>{
     return res.status(500).json("Internal Server Error")
   }
 })
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "../hospital/dist","index.html"));
+});
 
 
 app.listen(PORT, () => {

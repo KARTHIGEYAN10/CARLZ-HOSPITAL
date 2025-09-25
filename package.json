@@ -4,10 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
+  "start": "node Backend/server.js",
+  "server": "nodemon Backend/server.js",
+
+  "install-all": "npm install && npm install --prefix hospital",
+
+  "build": "npm run install-all && npm run build --prefix hospital",
+
+  "dev": "npm run build && npm run start"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
