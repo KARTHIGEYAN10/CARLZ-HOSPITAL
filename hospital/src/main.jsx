@@ -4,7 +4,7 @@ import './index.css';
 import App from './App.jsx';
 import { UserdoctorContextProvider } from './context/UserContext.jsx';
 import { BrowserRouter } from 'react-router-dom';
-import { ProfilecontextProvider } from './context/profileContext.jsx';
+import { ProfilecontextProvider } from './context/ProfileContext.jsx';
 import { GoogleOAuthProvider } from '@react-oauth/google'; // Import GoogleOAuthProvider
 
 createRoot(document.getElementById('root')).render(

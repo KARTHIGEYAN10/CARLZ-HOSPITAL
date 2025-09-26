@@ -15,7 +15,7 @@ import g from "../assets/7.jpeg"
 import h from "../assets/8.jpeg"
 import i from "../assets/9.jpeg"
 import j from "../assets/10.jpeg"
-import { useprofilecontext } from '../context/profileContext';
+import { useprofilecontext } from '../context/ProfileContext';
 import mission from "../assets/mission.png"
 import value from "../assets/value.png"
 import vision from "../assets/vision.png"

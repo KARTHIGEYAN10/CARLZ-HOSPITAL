@@ -5,7 +5,7 @@ import googleimg from "../assets/google.png";
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useuserdoctorcontext } from '../context/UserContext';
-import { useprofilecontext } from '../context/profileContext';
+import { useprofilecontext } from '../context/ProfileContext';
 import { GoogleLogin } from '@react-oauth/google'; 
 
 const Login = () => {

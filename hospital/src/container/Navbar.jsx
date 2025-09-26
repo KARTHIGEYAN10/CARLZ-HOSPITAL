@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-import { useprofilecontext } from '../context/profileContext';
+import { useprofilecontext } from '../context/ProfileContext';
 import { useuserdoctorcontext } from '../context/UserContext';
 
 const Navbar = () => {
