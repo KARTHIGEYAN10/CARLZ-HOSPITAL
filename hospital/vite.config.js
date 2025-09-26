@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://carlz-hospital-server-karthigeyans-projects-5bc7c4d8.vercel.app/',
         changeOrigin: true,
         secure: false,
       },
