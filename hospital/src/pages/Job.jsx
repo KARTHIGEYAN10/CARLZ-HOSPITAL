@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../container/navbar';
+import Navbar from '../container/Navbar';
 import logo from '../assets/CARL`Z.png';
 import axios from 'axios';
 import Footer from '../container/Footer';

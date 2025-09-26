@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import Cardiacdoctors from './Cardiacdoctors'
 import cardiac from "../../public/cardiac.jpg"
 import { useNavigate, useSearchParams } from 'react-router-dom'

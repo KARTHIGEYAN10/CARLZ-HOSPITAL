@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../container/navbar';
+import Navbar from '../container/Navbar';
 import Footer from '../container/Footer';
 import axios from 'axios';
 import toast from 'react-hot-toast';

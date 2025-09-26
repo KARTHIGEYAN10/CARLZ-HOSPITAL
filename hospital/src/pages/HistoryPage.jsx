@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import Footer from '../container/Footer'
 import hospitalimg from "../assets/hospital.jpeg"
 import ambulanceimg from "../assets/ambulance.jpg"

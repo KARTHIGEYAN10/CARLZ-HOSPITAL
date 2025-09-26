@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import Footer from '../container/Footer'
 import Children from '../schemescontainer/Children'
 import Women from '../schemescontainer/Women'

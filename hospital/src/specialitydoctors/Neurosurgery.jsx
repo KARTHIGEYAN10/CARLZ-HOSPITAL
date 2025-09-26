@@ -1,7 +1,7 @@
 import React from 'react'
 import NeurosurgeryDoctors from './NeurosurgeryDoctors'
 import neurosurgery from "../../public/neurosurgery.png"
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import { useNavigate } from 'react-router-dom'
 const Neurosurgery = () => {
     const navigate=useNavigate()    

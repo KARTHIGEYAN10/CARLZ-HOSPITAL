@@ -1,7 +1,7 @@
 import React from 'react'
 import EmergencyDoctors from './EmergencyDoctors'
 import emergencymedicine from "../../public/emergencymedicine.png"
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import { useNavigate } from 'react-router-dom'
 const EmergencyMedicine = () => {
     const navigate=useNavigate()

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import InfectiousDiseaseandcontrolDoctors from './InfectiousDiseaseandcontrolDoctors'
 import infectiousanddiseasecontrol from "../../public/infectiousanddiseasecontrol.png"
 import { useNavigate } from 'react-router-dom'

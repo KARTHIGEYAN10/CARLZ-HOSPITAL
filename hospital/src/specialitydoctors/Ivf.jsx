@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import IvfDoctors from './IvfDoctors'
 import ivf from "../../public/ivf.jpeg"
 import { useNavigate } from 'react-router-dom'

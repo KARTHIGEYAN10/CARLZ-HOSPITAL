@@ -6,7 +6,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import blurimage from "../assets/blur.jpeg";
 import { useuserdoctorcontext } from '../context/UserContext';
-import Navbar from '../container/navbar';
+import Navbar from '../container/Navbar';
 
 const Appoinment = () => {
     const { doctor, setDoctor, authuser, setAuthUser } = useuserdoctorcontext();

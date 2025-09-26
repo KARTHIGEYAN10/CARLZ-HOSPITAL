@@ -1,5 +1,5 @@
 import React, { useState,useEffect} from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import one from "../assets/one.png";
 import two from "../assets/two.png";
 import three from "../assets/three.png";

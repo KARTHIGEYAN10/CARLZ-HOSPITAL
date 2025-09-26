@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import Userlog from './Userlog'
 
 const Userlogs = () => {

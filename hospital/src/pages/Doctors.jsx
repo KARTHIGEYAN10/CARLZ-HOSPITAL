@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../container/navbar'
+import Navbar from '../container/Navbar'
 import gdoctors from '../assets/gdoctors.png'
 import { useNavigate } from 'react-router-dom'
 import Footer from '../container/Footer'
