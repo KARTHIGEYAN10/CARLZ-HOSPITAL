@@ -1,20 +1,24 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
-    react(),
-  ],
-  server: {
-    proxy: {
-      '/api': {
-        target: 'https://carlz-hospital-server-karthigeyans-projects-5bc7c4d8.vercel.app/',
-        changeOrigin: true,
-        secure: false,
+export default defineConfig(({ mode }) => {
+  // Load env variables (so vite.config.js can see them)
+  const env = loadEnv(mode, process.cwd(), '')
+
+  return {
+    plugins: [
+      tailwindcss(),
+      react(),
+    ],
+    server: {
+      proxy: {
+        '/api': {
+          target: env.VITE_API_BASE_URL, // ✅ use env
+          changeOrigin: true,
+          secure: false,
+        },
       },
     },
-  },
+  }
 })
