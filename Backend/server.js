@@ -19,19 +19,11 @@ const googlerouter = require("./routes/GoogleLogin");
 const domainrouter = require("./routes/Domainnames");
 const apppointmentdeleterouter = require("./routes/AppointmentDelete");
 const generalappointmentrouter = require("./routes/GeneralAppointment");
-const { Router } = require("express");
-const router = Router();
 
-router.get("*", (req, res) => {
-  res.sendFile(path.join(frontendPath, "index.html"));
-});
-
-app.use(router);
 
 // Initialize app
 const app = express();
 const PORT = process.env.PORT || 3000;
-
 // Connect to MongoDB
 mongodbconnect();
 
@@ -47,10 +39,9 @@ app.use(cors({
 }));
 
 // Serve frontend static files
-const frontendPath = path.resolve(__dirname, "../hospital/dist");
+const frontendPath = path.join(__dirname, "../hospital/dist");
 app.use(express.static(frontendPath));
 app.use('/images', express.static(path.resolve(__dirname, "assets")));
-
 // API routes
 app.use("/api", authrouter);
 app.use("/api", jobrouter);
@@ -108,7 +99,9 @@ app.post("/api/appointment/response", async (req, res) => {
 });
 
 // Catch-all: serve frontend for any route not handled by APIs
-
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname,"hospital","dist","index.html"));
+});
 
 // Start server
 app.listen(PORT, () => {
