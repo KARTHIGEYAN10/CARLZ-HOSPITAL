@@ -25,9 +25,9 @@ const app = express();
 app.use(express.json());
 app.use('/images', express.static('assets'))
 app.use(cors({
-    origin:true, 
-    methods:"GET,POST,PATCH,DELETE",
-    credentials: true, 
+  origin: [/\.vercel\.app$/],  // allow all vercel.app subdomains
+  methods: "GET,POST,PATCH,DELETE",
+  credentials: true,
 }));
 app.use(cookieParser());
 
