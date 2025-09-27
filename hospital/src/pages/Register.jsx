@@ -20,7 +20,7 @@ const Register = () => {
       return
     }
     try {
-      const res = await axios.post("/api/register", registerinputs);
+      const res = await axios.post("https://carlz-hospital-server.vercel.app/register", registerinputs);
   
       if (res.status === 201) {
         console.log(res)

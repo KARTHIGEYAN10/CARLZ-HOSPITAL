@@ -25,7 +25,7 @@ const app = express();
 app.use(express.json());
 app.use('/images', express.static('assets'))
 app.use(cors({
-    origin:["http://localhost:5173","https://carlz-hospital.vercel.app"], 
+    origin:["https://carlz-hospital.vercel.app"], 
     methods:"GET,POST,PATCH,DELETE",
     credentials: true, 
 }));

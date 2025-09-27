@@ -24,7 +24,7 @@ const Login = () => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/api/login", logindata);
+      const res = await axios.post("https://carlz-hospital-server.vercel.app/login", logindata);
       if (res.status === 201) {
         toast.success("Successfully Logged In");
         console.log(res.data);
