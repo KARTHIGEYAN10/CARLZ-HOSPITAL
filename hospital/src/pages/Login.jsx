@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post("/api/login", logindata);
-      if (res.status === 201) {
+      if (res.status === 201){
         toast.success("Successfully Logged In");
         console.log(res.data);
         localStorage.setItem("loged_user", JSON.stringify(res.data));
