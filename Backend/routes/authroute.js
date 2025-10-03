@@ -44,6 +44,7 @@ router.post("/login",async (req,res)=>{
         }
         const checklogin=await logeduser.findOne({email})
         if(checklogin){
+            console.log("checklogin "+checklogin._id);
             GenerateToken(checklogin._id,res)
             return res.status(201).json(checklogin)
         }

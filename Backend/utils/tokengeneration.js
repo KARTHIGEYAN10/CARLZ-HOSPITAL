@@ -1,10 +1,9 @@
 const jwt = require("jsonwebtoken");
-require('dotenv').config();
 
 const GenerateToken = (userid, res) => {
     try {
         // Create a JWT token with the user id and expiration time of 1 day
-        const token = jwt.sign({ userid }, process.env.SECRET_CODE, {
+        const token = jwt.sign({ userid },"my_super_secret_key", {
             expiresIn: "1d", // Token expiration time
         });
 

@@ -1,5 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const path = require("path");
+dotenv.config({ path: path.resolve(__dirname, ".env") });
 const cors = require("cors");
 const nodemailer=require("nodemailer")
 const cookieParser = require("cookie-parser");
@@ -18,7 +20,8 @@ const googlerouter=require("./routes/GoogleLogin");
 const domainrouter=require("./routes/Domainnames");
 const apppointmentdeleterouter=require("./routes/AppointmentDelete");
 const generalappointmentrouter=require("./routes/GeneralAppointment");
-dotenv.config();
+
+
 //basic setup
 const app = express();
 
@@ -32,6 +35,7 @@ app.use(cors({
 app.use(cookieParser());
 
 const PORT = process.env.PORT;
+console.log(PORT);
 mongodbconnect()
 
 //routers
@@ -44,7 +48,7 @@ app.use("/api",domainrouter);
 app.use("/api",apppointmentdeleterouter);
 app.post("/api/appoinment/logs",protectroute,userlog)
 app.use("/api",generalappointmentrouter);
-
+app.use(express.static(path.join(__dirname,"../hospital/dist")))
 app.post("/api/appointment/check",async (req,res)=>{
   try{
     const {dateselection,doctorname}=req.body
@@ -106,8 +110,16 @@ app.post("/api/appointment/response",async(req,res)=>{
     return res.status(500).json("Internal Server Error")
   }
 })
-
-
+app.get(/^\/(?!api).*/, (req, res) => {
+  const indexPath = path.join(__dirname,"../hospital/dist/index.html");
+  console.log("Sending frontend index:", indexPath);
+  res.sendFile(indexPath, (err) => {
+    if (err) {
+      console.error("Error sending index.html:", err);
+      res.status(500).send("Something went wrong");
+    }
+  });
+});
 app.listen(PORT, () => {
     console.log(`App is running on port ${PORT}`);
 });
