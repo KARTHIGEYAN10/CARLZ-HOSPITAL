@@ -26,7 +26,7 @@ router.post('/google-login', async (req, res) => {
       }
     } catch (error) {
       console.log(error);
-      res.status(400).json({ error: 'Google login failed' });
+      res.status(400).json({ error: 'Google login failed '+ error});
     }
   });
 module.exports=router;
